@@ -7,11 +7,11 @@ $primary: #188eac !default;
 $tabs-link-active-color: $primary;
 $tabs-link-active-border-bottom-color: $primary;
 
-@import "../node_modules/bulma/bulma.sass";
+@import "../_lib/bulma/bulma.sass";
 @import "layout";
 @import "syntax";
 @import "showcase";
-@import "../node_modules/bulma-block-list/src/block-list.scss";
+@import "../_lib/bulma-block-list/src/block-list.scss";
 
 .gh-sponsor {
   color: #ea4aaa;
