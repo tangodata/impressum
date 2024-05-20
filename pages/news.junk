@@ -1,0 +1,652 @@
+<template lang="pug">
+// Header
+// =========={ MAIN }==========
+main#content
+
+  // advertisement
+  .bg-gray-50.py-4.hidden
+    .mx-auto.px-3(class="xl:container sm:px-4 xl:px-2")
+      .mx-auto.table.text-center.text-sm
+        a.uppercase(href="#") Advertisement
+        a(href="#")
+          img(src="src/img/ads/ads_728.jpg" alt="advertisement area")
+
+  //==============
+  // hero big grid
+  .bg-white.py-6
+    .mx-auto.px-3(class="xl:container sm:px-4 xl:px-2")
+      // big grid 1
+      .flex.flex-row.flex-wrap
+        // Start left cover
+        .flex-shrink.max-w-full.w-full.pb-1(class="lg:w-1/2 lg:pb-0 lg:pr-1")
+          .relative.hover-img.max-h-98.overflow-hidden
+            a(href="#")
+              img.max-w-full.w-full.mx-auto.h-auto(src="src/img/dummy/img1.jpg" alt="Image description")
+            .absolute.px-5.pt-8.pb-5.bottom-0.w-full.bg-gradient-cover
+              a(href="#")
+                h2.text-3xl.font-bold.capitalize.text-white.mb-3 Amazon Shoppers Are Ditching Designer Belts for This Best-Selling
+              p.text-gray-100.hidden(class="sm:inline-block")
+                | This is a wider card with supporting text below as a natural lead-in to additional content. This very helpfull for generate default content..
+              .pt-2
+                .text-gray-100
+                  .inline-block.h-3.border-l-2.border-red-600.mr-2
+                  | Europe
+        // Start box news
+        .flex-shrink.max-w-full.w-full(class="lg:w-1/2")
+          .box-one.flex.flex-row.flex-wrap
+            article.flex-shrink.max-w-full.w-full(class="sm:w-1/2")
+              .relative.hover-img.max-h-48.overflow-hidden
+                a(href="#")
+                  img.max-w-full.w-full.mx-auto.h-auto(src="src/img/dummy/img2.jpg" alt="Image description")
+                .absolute.px-4.pt-7.pb-4.bottom-0.w-full.bg-gradient-cover
+                  a(href="#")
+                    h2.text-lg.font-bold.capitalize.leading-tight.text-white.mb-1 News magazines are becoming obsolete, replaced by gadgets
+                  .pt-1
+                    .text-gray-100
+                      .inline-block.h-3.border-l-2.border-red-600.mr-2
+                      | Techno
+            article.flex-shrink.max-w-full.w-full(class="sm:w-1/2")
+              .relative.hover-img.max-h-48.overflow-hidden
+                a(href="#")
+                  img.max-w-full.w-full.mx-auto.h-auto(src="src/img/dummy/img3.jpg" alt="Image description")
+                .absolute.px-4.pt-7.pb-4.bottom-0.w-full.bg-gradient-cover
+                  a(href="#")
+                    h2.text-lg.font-bold.capitalize.leading-tight.text-white.mb-1 Minimalist designs are starting to be popular with the next generation
+                  .pt-1
+                    .text-gray-100
+                      .inline-block.h-3.border-l-2.border-red-600.mr-2
+                      | Architecture
+            article.flex-shrink.max-w-full.w-full(class="sm:w-1/2")
+              .relative.hover-img.max-h-48.overflow-hidden
+                a(href="#")
+                  img.max-w-full.w-full.mx-auto.h-auto(src="src/img/dummy/img4.jpg" alt="Image description")
+                .absolute.px-4.pt-7.pb-4.bottom-0.w-full.bg-gradient-cover
+                  a(href="#")
+                    h2.text-lg.font-bold.capitalize.leading-tight.text-white.mb-1 Tips for decorating the interior of the living room
+                  .pt-1
+                    .text-gray-100
+                      .inline-block.h-3.border-l-2.border-red-600.mr-2
+                      | Interior
+            article.flex-shrink.max-w-full.w-full(class="sm:w-1/2")
+              .relative.hover-img.max-h-48.overflow-hidden
+                a(href="#")
+                  img.max-w-full.w-full.mx-auto.h-auto(src="src/img/dummy/img5.jpg" alt="Image description")
+                .absolute.px-4.pt-7.pb-4.bottom-0.w-full.bg-gradient-cover
+                  a(href="#")
+                    h2.text-lg.font-bold.capitalize.leading-tight.text-white.mb-1 Online taxi users are increasing drastically ahead of the new year
+                  .pt-1
+                    .text-gray-100
+                      .inline-block.h-3.border-l-2.border-red-600.mr-2
+                      | Lifestyle
+
+
+  //==============
+  // block news
+  .bg-white
+    .mx-auto.px-3(class="xl:container sm:px-4 xl:px-2")
+      .flex.flex-row.flex-wrap
+        // Left
+        .flex-shrink.max-w-full.w-full.overflow-hidden(class="lg:w-2/3")
+          .w-full.py-3
+            h2.text-gray-800.text-2xl.font-bold
+              span.inline-block.h-5.border-l-3.border-red-600.mr-2
+              | Europe
+          .flex.flex-row.flex-wrap.-mx-3
+            .flex-shrink.max-w-full.w-full.px-3.pb-3.pt-3.border-b-2.border-dotted.border-gray-100(class="sm:w-1/3 sm:pt-0 sm:border-b-0")
+              .flex.flex-row.hover-img(class="sm:block")
+                a(href="")
+                  img.max-w-full.w-full.mx-auto(src="src/img/dummy/img6.jpg" alt="alt title")
+                .py-0.pl-3(class="sm:py-3 sm:pl-0")
+                  h3.text-lg.font-bold.leading-tight.mb-2
+                    a(href="#") 5 Tips to Save Money Booking Your Next Hotel Room
+                  p.hidden.text-gray-600.leading-tight.mb-1(class="md:block")
+                    | This is a wider card with supporting text below as a natural lead-in to additional content.
+                  a.text-gray-500(href="#")
+                    span.inline-block.h-3.border-l-2.border-red-600.mr-2
+                    | Europe
+            .flex-shrink.max-w-full.w-full.px-3.pb-3.pt-3.border-b-2.border-dotted.border-gray-100(class="sm:w-1/3 sm:pt-0 sm:border-b-0")
+              .flex.flex-row.hover-img(class="sm:block")
+                a(href="")
+                  img.max-w-full.w-full.mx-auto(src="src/img/dummy/img7.jpg" alt="alt title")
+                .py-0.pl-3(class="sm:py-3 sm:pl-0")
+                  h3.text-lg.font-bold.leading-tight.mb-2
+                    a(href="#") 5 Tips to Save Money Booking Your Next Hotel Room
+                  p.hidden.text-gray-600.leading-tight.mb-1(class="md:block")
+                    | This is a wider card with supporting text below as a natural lead-in to additional content.
+                  a.text-gray-500(href="#")
+                    span.inline-block.h-3.border-l-2.border-red-600.mr-2
+                    | Europe
+            .flex-shrink.max-w-full.w-full.px-3.pb-3.pt-3.border-b-2.border-dotted.border-gray-100(class="sm:w-1/3 sm:pt-0 sm:border-b-0")
+              .flex.flex-row.hover-img(class="sm:block")
+                a(href="")
+                  img.max-w-full.w-full.mx-auto(src="src/img/dummy/img8.jpg" alt="alt title")
+                .py-0.pl-3(class="sm:py-3 sm:pl-0")
+                  h3.text-lg.font-bold.leading-tight.mb-2
+                    a(href="#") 5 Tips to Save Money Booking Your Next Hotel Room
+                  p.hidden.text-gray-600.leading-tight.mb-1(class="md:block")
+                    | This is a wider card with supporting text below as a natural lead-in to additional content.
+                  a.text-gray-500(href="#")
+                    span.inline-block.h-3.border-l-2.border-red-600.mr-2
+                    | Europe
+            .flex-shrink.max-w-full.w-full.px-3.pb-3.pt-3.border-b-2.border-dotted.border-gray-100(class="sm:w-1/3 sm:pt-0 sm:border-b-0")
+              .flex.flex-row.hover-img(class="sm:block")
+                a(href="")
+                  img.max-w-full.w-full.mx-auto(src="src/img/dummy/img9.jpg" alt="alt title")
+                .py-0.pl-3(class="sm:py-3 sm:pl-0")
+                  h3.text-lg.font-bold.leading-tight.mb-2
+                    a(href="#") 5 Tips to Save Money Booking Your Next Hotel Room
+                  p.hidden.text-gray-600.leading-tight.mb-1(class="md:block")
+                    | This is a wider card with supporting text below as a natural lead-in to additional content.
+                  a.text-gray-500(href="#")
+                    span.inline-block.h-3.border-l-2.border-red-600.mr-2
+                    | Europe
+            .flex-shrink.max-w-full.w-full.px-3.pb-3.pt-3.border-b-2.border-dotted.border-gray-100(class="sm:w-1/3 sm:pt-0 sm:border-b-0")
+              .flex.flex-row.hover-img(class="sm:block")
+                a(href="")
+                  img.max-w-full.w-full.mx-auto(src="src/img/dummy/img10.jpg" alt="alt title")
+                .py-0.pl-3(class="sm:py-3 sm:pl-0")
+                  h3.text-lg.font-bold.leading-tight.mb-2
+                    a(href="#") 5 Tips to Save Money Booking Your Next Hotel Room
+                  p.hidden.text-gray-600.leading-tight.mb-1(class="md:block")
+                    | This is a wider card with supporting text below as a natural lead-in to additional content.
+                  a.text-gray-500(href="#")
+                    span.inline-block.h-3.border-l-2.border-red-600.mr-2
+                    | Europe
+            .flex-shrink.max-w-full.w-full.px-3.pb-3.pt-3.border-b-2.border-dotted.border-gray-100(class="sm:w-1/3 sm:pt-0 sm:border-b-0")
+              .flex.flex-row.hover-img(class="sm:block")
+                a(href="")
+                  img.max-w-full.w-full.mx-auto(src="src/img/dummy/img11.jpg" alt="alt title")
+                .py-0.pl-3(class="sm:py-3 sm:pl-0")
+                  h3.text-lg.font-bold.leading-tight.mb-2
+                    a(href="#") 5 Tips to Save Money Booking Your Next Hotel Room
+                  p.hidden.text-gray-600.leading-tight.mb-1(class="md:block")
+                    | This is a wider card with supporting text below as a natural lead-in to additional content.
+                  a.text-gray-500(href="#")
+                    span.inline-block.h-3.border-l-2.border-red-600.mr-2
+                    | Europe
+        // right
+        .flex-shrink.max-w-full.w-full.order-first(class="lg:w-1/3 lg:pl-8 lg:pt-14 lg:pb-8 lg:order-last")
+          .w-full.bg-gray-50.h-full
+            .text-sm.py-6.sticky
+              .w-full.text-center
+                a.uppercase(href="#") Advertisement
+                a(href="#")
+                  img.mx-auto(src="src/img/ads/250.jpg" alt="advertisement area")
+
+  //==============
+  // slider news
+  .relative.bg-gray-50(style="background-image: url('src/img/bg.jpg');background-size: cover;background-position: center center;background-attachment: fixed")
+    .bg-black.bg-opacity-70
+      .mx-auto.px-3(class="xl:container sm:px-4 xl:px-2")
+        .flex.flex-row.flex-wrap
+          .flex-shrink.max-w-full.w-full.py-12.overflow-hidden
+            .w-full.py-3
+              h2.text-white.text-2xl.font-bold.text-shadow-black
+                span.inline-block.h-5.border-l-3.border-red-600.mr-2
+                | American
+            #post-carousel.splide.post-carousel
+              .splide__track
+                ul.splide__list
+                  li.splide__slide
+                    .w-full.pb-3
+                      .hover-img.bg-white
+                        a(href="")
+                          img.max-w-full.w-full.mx-auto(src="src/img/dummy/img14.jpg" alt="alt title")
+                        .py-3.px-6
+                          h3.text-lg.font-bold.leading-tight.mb-2
+                            a(href="#") 5 Tips to Save Money Booking Your Next Hotel Room
+                          a.text-gray-500(href="#")
+                            span.inline-block.h-3.border-l-2.border-red-600.mr-2
+                            | Europe
+                  li.splide__slide
+                    .w-full.pb-3
+                      .hover-img.bg-white
+                        a(href="")
+                          img.max-w-full.w-full.mx-auto(src="src/img/dummy/img15.jpg" alt="alt title")
+                        .py-3.px-6
+                          h3.text-lg.font-bold.leading-tight.mb-2
+                            a(href="#") 5 Tips to Save Money Booking Your Next Hotel Room
+                          a.text-gray-500(href="#")
+                            span.inline-block.h-3.border-l-2.border-red-600.mr-2
+                            | Europe
+                  li.splide__slide
+                    .w-full.pb-3
+                      .hover-img.bg-white
+                        a(href="")
+                          img.max-w-full.w-full.mx-auto(src="src/img/dummy/img16.jpg" alt="alt title")
+                        .py-3.px-6
+                          h3.text-lg.font-bold.leading-tight.mb-2
+                            a(href="#") 5 Tips to Save Money Booking Your Next Hotel Room
+                          a.text-gray-500(href="#")
+                            span.inline-block.h-3.border-l-2.border-red-600.mr-2
+                            | Europe
+                  li.splide__slide
+                    .w-full.pb-3
+                      .hover-img.bg-white
+                        a(href="")
+                          img.max-w-full.w-full.mx-auto(src="src/img/dummy/img17.jpg" alt="alt title")
+                        .py-3.px-6
+                          h3.text-lg.font-bold.leading-tight.mb-2
+                            a(href="#") 5 Tips to Save Money Booking Your Next Hotel Room
+                          a.text-gray-500(href="#")
+                            span.inline-block.h-3.border-l-2.border-red-600.mr-2
+                            | Europe
+                  li.splide__slide
+                    .w-full.pb-3
+                      .hover-img.bg-white
+                        a(href="")
+                          img.max-w-full.w-full.mx-auto(src="src/img/dummy/img18.jpg" alt="alt title")
+                        .py-3.px-6
+                          h3.text-lg.font-bold.leading-tight.mb-2
+                            a(href="#") 5 Tips to Save Money Booking Your Next Hotel Room
+                          a.text-gray-500(href="#")
+                            span.inline-block.h-3.border-l-2.border-red-600.mr-2
+                            | Europe
+                  li.splide__slide
+                    .w-full.pb-3
+                      .hover-img.bg-white
+                        a(href="")
+                          img.max-w-full.w-full.mx-auto(src="src/img/dummy/img1.jpg" alt="alt title")
+                        .py-3.px-6
+                          h3.text-lg.font-bold.leading-tight.mb-2
+                            a(href="#") 5 Tips to Save Money Booking Your Next Hotel Room
+                          a.text-gray-500(href="#")
+                            span.inline-block.h-3.border-l-2.border-red-600.mr-2
+                            | Europe
+
+  //==============
+  // block news
+  .bg-white.py-6
+    .mx-auto.px-3(class="xl:container sm:px-4 xl:px-2")
+      .flex.flex-row.flex-wrap
+        .flex-shrink.max-w-full.w-full.overflow-hidden
+          .w-full.py-3
+            h2.text-gray-800.text-2xl.font-bold
+              span.inline-block.h-5.border-l-3.border-red-600.mr-2
+              | Africa
+          .flex.flex-row.flex-wrap.-mx-3
+            .flex-shrink.max-w-full.w-full.px-3.pb-3.pt-3.border-b-2.border-dotted.border-gray-100(class="sm:w-1/3 lg:w-1/4 sm:pt-0 sm:border-b-0")
+              .flex.flex-row.hover-img(class="sm:block")
+                a(href="")
+                  img.max-w-full.w-full.mx-auto(src="src/img/dummy/img19.jpg" alt="alt title")
+                .py-0.pl-3(class="sm:py-3 sm:pl-0")
+                  h3.text-lg.font-bold.leading-tight.mb-2
+                    a(href="#") 5 Tips to Save Money Booking Your Next Hotel Room
+                  p.hidden.text-gray-600.leading-tight.mb-1(class="md:block")
+                    | This is a wider card with supporting text below as a natural lead-in to additional content.
+                  a.text-gray-500(href="#")
+                    span.inline-block.h-3.border-l-2.border-red-600.mr-2
+                    | Europe
+            .flex-shrink.max-w-full.w-full.px-3.pb-3.pt-3.border-b-2.border-dotted.border-gray-100(class="sm:w-1/3 lg:w-1/4 sm:pt-0 sm:border-b-0")
+              .flex.flex-row.hover-img(class="sm:block")
+                a(href="")
+                  img.max-w-full.w-full.mx-auto(src="src/img/dummy/img20.jpg" alt="alt title")
+                .py-0.pl-3(class="sm:py-3 sm:pl-0")
+                  h3.text-lg.font-bold.leading-tight.mb-2
+                    a(href="#") 5 Tips to Save Money Booking Your Next Hotel Room
+                  p.hidden.text-gray-600.leading-tight.mb-1(class="md:block")
+                    | This is a wider card with supporting text below as a natural lead-in to additional content.
+                  a.text-gray-500(href="#")
+                    span.inline-block.h-3.border-l-2.border-red-600.mr-2
+                    | Europe
+            .flex-shrink.max-w-full.w-full.px-3.pb-3.pt-3.border-b-2.border-dotted.border-gray-100(class="sm:w-1/3 lg:w-1/4 sm:pt-0 sm:border-b-0")
+              .flex.flex-row.hover-img(class="sm:block")
+                a(href="")
+                  img.max-w-full.w-full.mx-auto(src="src/img/dummy/img21.jpg" alt="alt title")
+                .py-0.pl-3(class="sm:py-3 sm:pl-0")
+                  h3.text-lg.font-bold.leading-tight.mb-2
+                    a(href="#") 5 Tips to Save Money Booking Your Next Hotel Room
+                  p.hidden.text-gray-600.leading-tight.mb-1(class="md:block")
+                    | This is a wider card with supporting text below as a natural lead-in to additional content.
+                  a.text-gray-500(href="#")
+                    span.inline-block.h-3.border-l-2.border-red-600.mr-2
+                    | Europe
+            .flex-shrink.max-w-full.w-full.px-3.pb-3.pt-3.border-b-2.border-dotted.border-gray-100(class="sm:w-1/3 lg:w-1/4 sm:pt-0 sm:border-b-0")
+              .flex.flex-row.hover-img(class="sm:block")
+                a(href="")
+                  img.max-w-full.w-full.mx-auto(src="src/img/dummy/img22.jpg" alt="alt title")
+                .py-0.pl-3(class="sm:py-3 sm:pl-0")
+                  h3.text-lg.font-bold.leading-tight.mb-2
+                    a(href="#") 5 Tips to Save Money Booking Your Next Hotel Room
+                  p.hidden.text-gray-600.leading-tight.mb-1(class="md:block")
+                    | This is a wider card with supporting text below as a natural lead-in to additional content.
+                  a.text-gray-500(href="#")
+                    span.inline-block.h-3.border-l-2.border-red-600.mr-2
+                    | Europe
+            .flex-shrink.max-w-full.w-full.px-3.pb-3.pt-3.border-b-2.border-dotted.border-gray-100(class="sm:w-1/3 lg:w-1/4 sm:pt-0 sm:border-b-0")
+              .flex.flex-row.hover-img(class="sm:block")
+                a(href="")
+                  img.max-w-full.w-full.mx-auto(src="src/img/dummy/img23.jpg" alt="alt title")
+                .py-0.pl-3(class="sm:py-3 sm:pl-0")
+                  h3.text-lg.font-bold.leading-tight.mb-2
+                    a(href="#") 5 Tips to Save Money Booking Your Next Hotel Room
+                  p.hidden.text-gray-600.leading-tight.mb-1(class="md:block")
+                    | This is a wider card with supporting text below as a natural lead-in to additional content.
+                  a.text-gray-500(href="#")
+                    span.inline-block.h-3.border-l-2.border-red-600.mr-2
+                    | Europe
+            .flex-shrink.max-w-full.w-full.px-3.pb-3.pt-3.border-b-2.border-dotted.border-gray-100(class="sm:w-1/3 lg:w-1/4 sm:pt-0 sm:border-b-0")
+              .flex.flex-row.hover-img(class="sm:block")
+                a(href="")
+                  img.max-w-full.w-full.mx-auto(src="src/img/dummy/img24.jpg" alt="alt title")
+                .py-0.pl-3(class="sm:py-3 sm:pl-0")
+                  h3.text-lg.font-bold.leading-tight.mb-2
+                    a(href="#") 5 Tips to Save Money Booking Your Next Hotel Room
+                  p.hidden.text-gray-600.leading-tight.mb-1(class="md:block")
+                    | This is a wider card with supporting text below as a natural lead-in to additional content.
+                  a.text-gray-500(href="#")
+                    span.inline-block.h-3.border-l-2.border-red-600.mr-2
+                    | Europe
+            .flex-shrink.max-w-full.w-full.px-3.pb-3.pt-3.border-b-2.border-dotted.border-gray-100(class="sm:w-1/3 lg:w-1/4 sm:pt-0 sm:border-b-0")
+              .flex.flex-row.hover-img(class="sm:block")
+                a(href="")
+                  img.max-w-full.w-full.mx-auto(src="src/img/dummy/img25.jpg" alt="alt title")
+                .py-0.pl-3(class="sm:py-3 sm:pl-0")
+                  h3.text-lg.font-bold.leading-tight.mb-2
+                    a(href="#") 5 Tips to Save Money Booking Your Next Hotel Room
+                  p.hidden.text-gray-600.leading-tight.mb-1(class="md:block")
+                    | This is a wider card with supporting text below as a natural lead-in to additional content.
+                  a.text-gray-500(href="#")
+                    span.inline-block.h-3.border-l-2.border-red-600.mr-2
+                    | Europe
+            .flex-shrink.max-w-full.w-full.px-3.pb-3.pt-3.border-b-2.border-dotted.border-gray-100(class="sm:w-1/3 lg:w-1/4 sm:pt-0 sm:border-b-0")
+              .flex.flex-row.hover-img(class="sm:block")
+                a(href="")
+                  img.max-w-full.w-full.mx-auto(src="src/img/dummy/img26.jpg" alt="alt title")
+                .py-0.pl-3(class="sm:py-3 sm:pl-0")
+                  h3.text-lg.font-bold.leading-tight.mb-2
+                    a(href="#") 5 Tips to Save Money Booking Your Next Hotel Room
+                  p.hidden.text-gray-600.leading-tight.mb-1(class="md:block")
+                    | This is a wider card with supporting text below as a natural lead-in to additional content.
+                  a.text-gray-500(href="#")
+                    span.inline-block.h-3.border-l-2.border-red-600.mr-2
+                    | Europe
+
+  //==============
+  // block news
+  .bg-gray-50.py-6
+    .mx-auto.px-3(class="xl:container sm:px-4 xl:px-2")
+      .flex.flex-row.flex-wrap
+        // Left
+        .flex-shrink.max-w-full.w-full.overflow-hidden(class="lg:w-2/3")
+          .w-full.py-3
+            h2.text-gray-800.text-2xl.font-bold
+              span.inline-block.h-5.border-l-3.border-red-600.mr-2
+              | Asian
+          .flex.flex-row.flex-wrap.-mx-3
+            .flex-shrink.max-w-full.w-full.px-3.pb-5
+              .relative.hover-img.max-h-98.overflow-hidden
+                // thumbnail
+                a(href="#")
+                  img.max-w-full.w-full.mx-auto.h-auto(src="src/img/dummy/img2.jpg" alt="Image description")
+                .absolute.px-5.pt-8.pb-5.bottom-0.w-full.bg-gradient-cover
+                  // title
+                  a(href="#")
+                    h2.text-3xl.font-bold.capitalize.text-white.mb-3 Amazon Shoppers Are Ditching Designer Belts for This Best-Selling
+                  p.text-gray-100.hidden(class="sm:inline-block")
+                    | This is a wider card with supporting text below as a natural lead-in to additional content. This very helpfull for generate default content..
+                  // author and date
+                  .pt-2
+                    .text-gray-100
+                      .inline-block.h-3.border-l-2.border-red-600.mr-2
+                      | Europe
+            .flex-shrink.max-w-full.w-full.px-3.pb-3.pt-3.border-b-2.border-dotted.border-gray-100(class="sm:w-1/3 sm:pt-0 sm:border-b-0")
+              .flex.flex-row.hover-img(class="sm:block")
+                a(href="")
+                  img.max-w-full.w-full.mx-auto(src="src/img/dummy/img27.jpg" alt="alt title")
+                .py-0.pl-3(class="sm:py-3 sm:pl-0")
+                  h3.text-lg.font-bold.leading-tight.mb-2
+                    a(href="#") 5 Tips to Save Money Booking Your Next Hotel Room
+                  p.hidden.text-gray-600.leading-tight.mb-1(class="md:block")
+                    | This is a wider card with supporting text below as a natural lead-in to additional content.
+                  a.text-gray-500(href="#")
+                    span.inline-block.h-3.border-l-2.border-red-600.mr-2
+                    | Europe
+            .flex-shrink.max-w-full.w-full.px-3.pb-3.pt-3.border-b-2.border-dotted.border-gray-100(class="sm:w-1/3 sm:pt-0 sm:border-b-0")
+              .flex.flex-row.hover-img(class="sm:block")
+                a(href="")
+                  img.max-w-full.w-full.mx-auto(src="src/img/dummy/img3.jpg" alt="alt title")
+                .py-0.pl-3(class="sm:py-3 sm:pl-0")
+                  h3.text-lg.font-bold.leading-tight.mb-2
+                    a(href="#") 5 Tips to Save Money Booking Your Next Hotel Room
+                  p.hidden.text-gray-600.leading-tight.mb-1(class="md:block")
+                    | This is a wider card with supporting text below as a natural lead-in to additional content.
+                  a.text-gray-500(href="#")
+                    span.inline-block.h-3.border-l-2.border-red-600.mr-2
+                    | Europe
+            .flex-shrink.max-w-full.w-full.px-3.pb-3.pt-3.border-b-2.border-dotted.border-gray-100(class="sm:w-1/3 sm:pt-0 sm:border-b-0")
+              .flex.flex-row.hover-img(class="sm:block")
+                a(href="")
+                  img.max-w-full.w-full.mx-auto(src="src/img/dummy/img4.jpg" alt="alt title")
+                .py-0.pl-3(class="sm:py-3 sm:pl-0")
+                  h3.text-lg.font-bold.leading-tight.mb-2
+                    a(href="#") 5 Tips to Save Money Booking Your Next Hotel Room
+                  p.hidden.text-gray-600.leading-tight.mb-1(class="md:block")
+                    | This is a wider card with supporting text below as a natural lead-in to additional content.
+                  a.text-gray-500(href="#")
+                    span.inline-block.h-3.border-l-2.border-red-600.mr-2
+                    | Europe
+            .flex-shrink.max-w-full.w-full.px-3.pb-3.pt-3.border-b-2.border-dotted.border-gray-100(class="sm:w-1/3 sm:pt-0 sm:border-b-0")
+              .flex.flex-row.hover-img(class="sm:block")
+                a(href="")
+                  img.max-w-full.w-full.mx-auto(src="src/img/dummy/img5.jpg" alt="alt title")
+                .py-0.pl-3(class="sm:py-3 sm:pl-0")
+                  h3.text-lg.font-bold.leading-tight.mb-2
+                    a(href="#") 5 Tips to Save Money Booking Your Next Hotel Room
+                  p.hidden.text-gray-600.leading-tight.mb-1(class="md:block")
+                    | This is a wider card with supporting text below as a natural lead-in to additional content.
+                  a.text-gray-500(href="#")
+                    span.inline-block.h-3.border-l-2.border-red-600.mr-2
+                    | Europe
+            .flex-shrink.max-w-full.w-full.px-3.pb-3.pt-3.border-b-2.border-dotted.border-gray-100(class="sm:w-1/3 sm:pt-0 sm:border-b-0")
+              .flex.flex-row.hover-img(class="sm:block")
+                a(href="")
+                  img.max-w-full.w-full.mx-auto(src="src/img/dummy/img6.jpg" alt="alt title")
+                .py-0.pl-3(class="sm:py-3 sm:pl-0")
+                  h3.text-lg.font-bold.leading-tight.mb-2
+                    a(href="#") 5 Tips to Save Money Booking Your Next Hotel Room
+                  p.hidden.text-gray-600.leading-tight.mb-1(class="md:block")
+                    | This is a wider card with supporting text below as a natural lead-in to additional content.
+                  a.text-gray-500(href="#")
+                    span.inline-block.h-3.border-l-2.border-red-600.mr-2
+                    | Europe
+            .flex-shrink.max-w-full.w-full.px-3.pb-3.pt-3.border-b-2.border-dotted.border-gray-100(class="sm:w-1/3 sm:pt-0 sm:border-b-0")
+              .flex.flex-row.hover-img(class="sm:block")
+                a(href="")
+                  img.max-w-full.w-full.mx-auto(src="src/img/dummy/img7.jpg" alt="alt title")
+                .py-0.pl-3(class="sm:py-3 sm:pl-0")
+                  h3.text-lg.font-bold.leading-tight.mb-2
+                    a(href="#") 5 Tips to Save Money Booking Your Next Hotel Room
+                  p.hidden.text-gray-600.leading-tight.mb-1(class="md:block")
+                    | This is a wider card with supporting text below as a natural lead-in to additional content.
+                  a.text-gray-500(href="#")
+                    span.inline-block.h-3.border-l-2.border-red-600.mr-2
+                    | Europe
+        // right
+        .flex-shrink.max-w-full.w-full.order-first(class="lg:w-1/3 lg:pl-8 lg:pt-14 lg:pb-8 lg:order-last")
+          .w-full.bg-white
+            .mb-6
+              .p-4.bg-gray-100
+                h2.text-lg.font-bold Most Popular
+              ul.post-number
+                li.border-b.border-gray-100(class="hover:bg-gray-50")
+                  a.text-lg.font-bold.px-6.py-3.flex.flex-row.items-center(href="#") Why the world would end without political polls
+                li.border-b.border-gray-100(class="hover:bg-gray-50")
+                  a.text-lg.font-bold.px-6.py-3.flex.flex-row.items-center(href="#") Meet The Man Who Designed The Ducati Monster
+                li.border-b.border-gray-100(class="hover:bg-gray-50")
+                  a.text-lg.font-bold.px-6.py-3.flex.flex-row.items-center(href="#") 2020 Audi R8 Spyder spy shots release
+                li.border-b.border-gray-100(class="hover:bg-gray-50")
+                  a.text-lg.font-bold.px-6.py-3.flex.flex-row.items-center(href="#") Lamborghini makes Huracán GT3 racer faster for 2019
+                li.border-b.border-gray-100(class="hover:bg-gray-50")
+                  a.text-lg.font-bold.px-6.py-3.flex.flex-row.items-center(href="#") ZF plans $14 billion autonomous vehicle push, concept van
+          .text-sm.py-6.sticky
+            .w-full.text-center
+              a.uppercase(href="#") Advertisement
+              a(href="#")
+                img.mx-auto(src="src/img/ads/250.jpg" alt="advertisement area")
+
+  //==============
+  // block news
+  .bg-gray-50.py-6
+    .mx-auto.px-3(class="xl:container sm:px-4 xl:px-2")
+      .flex.flex-row.flex-wrap
+        // post
+        .flex-shrink.max-w-full.w-full.overflow-hidden(class="lg:w-2/3")
+          .w-full.py-3
+            h2.text-gray-800.text-2xl.font-bold
+              span.inline-block.h-5.border-l-3.border-red-600.mr-2
+              | Latest news
+          .flex.flex-row.flex-wrap.-mx-3
+            .flex-shrink.max-w-full.w-full.px-3.pb-5
+              .relative.hover-img.max-h-98.overflow-hidden
+                // thumbnail
+                a(href="#")
+                  img.max-w-full.w-full.mx-auto.h-auto(src="src/img/dummy/img15.jpg" alt="Image description")
+                .absolute.px-5.pt-8.pb-5.bottom-0.w-full.bg-gradient-cover
+                  // title
+                  a(href="#")
+                    h2.text-3xl.font-bold.capitalize.text-white.mb-3 Amazon Shoppers Are Ditching Designer Belts for This Best-Selling
+                  p.text-gray-100.hidden(class="sm:inline-block")
+                    | This is a wider card with supporting text below as a natural lead-in to additional content. This very helpfull for generate default content..
+                  // author and date
+                  .pt-2
+                    .text-gray-100
+                      .inline-block.h-3.border-l-2.border-red-600.mr-2
+                      | Europe
+            .flex-shrink.max-w-full.w-full.px-3.pb-3.pt-3.border-b-2.border-dotted.border-gray-100(class="sm:w-1/3 sm:pt-0 sm:border-b-0")
+              .flex.flex-row.hover-img(class="sm:block")
+                a(href="")
+                  img.max-w-full.w-full.mx-auto(src="src/img/dummy/img24.jpg" alt="alt title")
+                .py-0.pl-3(class="sm:py-3 sm:pl-0")
+                  h3.text-lg.font-bold.leading-tight.mb-2
+                    a(href="#") 5 Tips to Save Money Booking Your Next Hotel Room
+                  p.hidden.text-gray-600.leading-tight.mb-1(class="md:block")
+                    | This is a wider card with supporting text below as a natural lead-in to additional content.
+                  a.text-gray-500(href="#")
+                    span.inline-block.h-3.border-l-2.border-red-600.mr-2
+                    | Europe
+            .flex-shrink.max-w-full.w-full.px-3.pb-3.pt-3.border-b-2.border-dotted.border-gray-100(class="sm:w-1/3 sm:pt-0 sm:border-b-0")
+              .flex.flex-row.hover-img(class="sm:block")
+                a(href="")
+                  img.max-w-full.w-full.mx-auto(src="src/img/dummy/img7.jpg" alt="alt title")
+                .py-0.pl-3(class="sm:py-3 sm:pl-0")
+                  h3.text-lg.font-bold.leading-tight.mb-2
+                    a(href="#") 5 Tips to Save Money Booking Your Next Hotel Room
+                  p.hidden.text-gray-600.leading-tight.mb-1(class="md:block")
+                    | This is a wider card with supporting text below as a natural lead-in to additional content.
+                  a.text-gray-500(href="#")
+                    span.inline-block.h-3.border-l-2.border-red-600.mr-2
+                    | Europe
+            .flex-shrink.max-w-full.w-full.px-3.pb-3.pt-3.border-b-2.border-dotted.border-gray-100(class="sm:w-1/3 sm:pt-0 sm:border-b-0")
+              .flex.flex-row.hover-img(class="sm:block")
+                a(href="")
+                  img.max-w-full.w-full.mx-auto(src="src/img/dummy/img17.jpg" alt="alt title")
+                .py-0.pl-3(class="sm:py-3 sm:pl-0")
+                  h3.text-lg.font-bold.leading-tight.mb-2
+                    a(href="#") 5 Tips to Save Money Booking Your Next Hotel Room
+                  p.hidden.text-gray-600.leading-tight.mb-1(class="md:block")
+                    | This is a wider card with supporting text below as a natural lead-in to additional content.
+                  a.text-gray-500(href="#")
+                    span.inline-block.h-3.border-l-2.border-red-600.mr-2
+                    | Europe
+            .flex-shrink.max-w-full.w-full.px-3.pb-3.pt-3.border-b-2.border-dotted.border-gray-100(class="sm:w-1/3 sm:pt-0 sm:border-b-0")
+              .flex.flex-row.hover-img(class="sm:block")
+                a(href="")
+                  img.max-w-full.w-full.mx-auto(src="src/img/dummy/img25.jpg" alt="alt title")
+                .py-0.pl-3(class="sm:py-3 sm:pl-0")
+                  h3.text-lg.font-bold.leading-tight.mb-2
+                    a(href="#") 5 Tips to Save Money Booking Your Next Hotel Room
+                  p.hidden.text-gray-600.leading-tight.mb-1(class="md:block")
+                    | This is a wider card with supporting text below as a natural lead-in to additional content.
+                  a.text-gray-500(href="#")
+                    span.inline-block.h-3.border-l-2.border-red-600.mr-2
+                    | Europe
+            .flex-shrink.max-w-full.w-full.px-3.pb-3.pt-3.border-b-2.border-dotted.border-gray-100(class="sm:w-1/3 sm:pt-0 sm:border-b-0")
+              .flex.flex-row.hover-img(class="sm:block")
+                a(href="")
+                  img.max-w-full.w-full.mx-auto(src="src/img/dummy/img12.jpg" alt="alt title")
+                .py-0.pl-3(class="sm:py-3 sm:pl-0")
+                  h3.text-lg.font-bold.leading-tight.mb-2
+                    a(href="#") 5 Tips to Save Money Booking Your Next Hotel Room
+                  p.hidden.text-gray-600.leading-tight.mb-1(class="md:block")
+                    | This is a wider card with supporting text below as a natural lead-in to additional content.
+                  a.text-gray-500(href="#")
+                    span.inline-block.h-3.border-l-2.border-red-600.mr-2
+                    | Europe
+            .flex-shrink.max-w-full.w-full.px-3.pb-3.pt-3.border-b-2.border-dotted.border-gray-100(class="sm:w-1/3 sm:pt-0 sm:border-b-0")
+              .flex.flex-row.hover-img(class="sm:block")
+                a(href="")
+                  img.max-w-full.w-full.mx-auto(src="src/img/dummy/img8.jpg" alt="alt title")
+                .py-0.pl-3(class="sm:py-3 sm:pl-0")
+                  h3.text-lg.font-bold.leading-tight.mb-2
+                    a(href="#") 5 Tips to Save Money Booking Your Next Hotel Room
+                  p.hidden.text-gray-600.leading-tight.mb-1(class="md:block")
+                    | This is a wider card with supporting text below as a natural lead-in to additional content.
+                  a.text-gray-500(href="#")
+                    span.inline-block.h-3.border-l-2.border-red-600.mr-2
+                    | Europe
+        // sidebar
+        .flex-shrink.max-w-full.w-full.order-first(class="lg:w-1/3 lg:pr-8 lg:pt-14 lg:pb-8")
+          .w-full.bg-white
+            .mb-6
+              .p-4.bg-gray-100
+                h2.text-lg.font-bold Most Popular
+              ul.post-number
+                li.border-b.border-gray-100(class="hover:bg-gray-50")
+                  a.text-lg.font-bold.px-6.py-3.flex.flex-row.items-center(href="#") Why the world would end without political polls
+                li.border-b.border-gray-100(class="hover:bg-gray-50")
+                  a.text-lg.font-bold.px-6.py-3.flex.flex-row.items-center(href="#") Meet The Man Who Designed The Ducati Monster
+                li.border-b.border-gray-100(class="hover:bg-gray-50")
+                  a.text-lg.font-bold.px-6.py-3.flex.flex-row.items-center(href="#") 2020 Audi R8 Spyder spy shots release
+                li.border-b.border-gray-100(class="hover:bg-gray-50")
+                  a.text-lg.font-bold.px-6.py-3.flex.flex-row.items-center(href="#") Lamborghini makes Huracán GT3 racer faster for 2019
+                li.border-b.border-gray-100(class="hover:bg-gray-50")
+                  a.text-lg.font-bold.px-6.py-3.flex.flex-row.items-center(href="#") ZF plans $14 billion autonomous vehicle push, concept van
+          .text-sm.py-6.sticky
+            .w-full.text-center
+              a.uppercase(href="#") Advertisement
+              a(href="#")
+                img.mx-auto(src="src/img/ads/250.jpg" alt="advertisement area")
+
+// end main
+
+// Footer
+</template>
+
+<script setup>
+
+/*
+
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Title  -->
+    <title>Tailwind News Template | Tailnews</title>
+    <meta name="description" content="Tailwind CSS News Template">
+    <!-- Development css -->
+    <link rel="stylesheet" href="src/css/style.css">
+    <!-- Production css -->
+    <!-- <link rel="stylesheet" href="dist/css/style.css"> -->
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600;700&amp;display=swap" rel="stylesheet">
+    <!-- Favicon  -->
+    <link rel="icon" href="src/img/favicon.jpg">
+  </head>
+
+  <body class="text-gray-700 pt-9 sm:pt-10">
+
+      <!--Vendor js-->
+    <script src="src/vendors/hc-sticky/dist/hc-sticky.js"></script>
+    <script src="src/vendors/glightbox/dist/js/glightbox.min.js"></script>
+    <script src="src/vendors/@splidejs/splide/dist/js/splide.min.js"></script>
+    <script src="src/vendors/@splidejs/splide-extension-video/dist/js/splide-extension-video.min.js"></script> <!-- Start development js -->
+    <script src="src/js/theme.js"></script> <!-- End development js -->
+    <!-- Production js -->
+    <!-- <script src="dist/js/scripts.js"></script> -->
+
+*/
+
+</script>

@@ -1,0 +1,484 @@
+---
+---
+
+# DJ (the art of)
+
+pre-1925
+1925-1955 Golden Epoch
+post-1955
+post-1985
+post-2000
+
+
+
+## General
+* [10 minutes tango DJing guide | Tango Mentor](https://tangomentor.com/instantdj/) Ivica Anteski ·
+* [Useful Tango DJ Sotware a case study](https://artinfo.is/practical-matters/iv-b-useful-dj-software-a-case-study/) Hlynur Helgason
+* [Tango DJ fundamentals Part 1 | Tango Voice](https://tangovoice.wordpress.com/2016/12/06/tango-dj-fundamentals-part-1-selecting-music-for-dancing-and-tanda-construction/)
+* [Tango DJing an intro | Tango Voyage](https://www.tango-voyage.com/introduction-to-djing/) Kyle
+* [How to DJ a Milonga | Tangology101](http://www.tangology101.com/main.cfm/title/How-to-DJ-a-Milonga/id/265) Clint Rauscher
+* [Playing Music for Milonga The DJ's role | Tejas Tango](https://www.tejastango.com/milongas_djsrole.html) Stephen Brown
+* [Tango DJ 101 (PDF) The Organic Tango School](http://www.theorganictangoschool.org/Resources/Documents/TangoDJ101.pdf)
+* [El Corte DJ guide (PDF)](http://www.milonga.hu/cikkek/elcortedjmanual2008.pdf)
+* [El Corte DJ guide 2010 (PDF)](https://manualzz.com/doc/32307968/the-el-corte-tango-dj-manual-mayday-dj-2010)
+* [El Corte DJ guide 2010 (fliphtml5)](https://fliphtml5.com/lact/jnqg/basic/)
+* [El Corte DJ guide 2012 (PDF)](https://www.abqtango.org/Documents/DJ%20Documents/El-Corte-Tango-DJ-Manual-2012.pdf)
+* [Teach Yourself to DJ | Jay Tango](https://www.jaytango.com/?p=668)
+* [Tango DJing and Music | Chhavi and Joy](https://cmandjmm.medium.com/tango-djing-and-music-c5b66339ccf8)
+* [Tango DJing - Part 3: Shaping the evening | Todotango](https://www.todotango.com/english/history/chronicle/510/Tango-DJing-Part-3:-Shaping-the-evening/) Michael Lavocah
+* [About Argentine Tango Music](https://yaletangoclub.wordpress.com/argentine-tango/)
+
+## Useful Websites
+* [Association for the preservation and provision of Argentine Tango](https://tango-dj.at/)
+* [ToTango.net](http://totango.net/) remastering of old recordings
+* [Milonga.co.uk (Michael Lavocah)](http://www.milonga.co.uk)
+* [Tangologia (Hlynur Helgason)](https://artinfo.is)
+* [El Espejero](https://elespejero.wordpress.com) Igor
+* [Tango.info/music](https://tango.info/music)
+* [Tanda of the week (Antti Suniala)](http://tandaoftheweek.blogspot.com/)
+* [TodoTango Music DB](https://www.todotango.com)
+* [Jens-Ingo Tango DJ](http://jens-ingo.all2all.org)
+* [Tango Notes on music](https://www.tangonotes.com)
+* [Tango Sparks blog Frank Jin](http://tangosparks.com/sparks)
+* [The Educated Tanguero DJing](https://tango.5toll.com/en/category/tango-djing/) Richard Stoll
+* [Tango Time Travel](https://tangotimetravel.be)
+* [Tango Tunes](https://www.tangotunes.com)
+* [Planet Tango](http://www.planet-tango.com/music.htm)
+* [Tango Music Secrets](http://www.tangomusicsecrets.co.uk)
+* [Argentango.ch](http://blog.argentango.ch)
+
+All the following pages deal with Tango DJing. Most of them you can easily find by just asking Google. As usually I would like to disclaim all liability. You follow these links on your own risk and I do not guarantee that the information there is correct, complete or up to date.
+
+Tango DJ (Yahoo Group) :    [https://groups.yahoo.com/neo/groups/TangoDJ/info](https://groups.yahoo.com/neo/groups/TangoDJ/info)
+
+Tango DJ Discussion Group:  [http://www.tangodj.org/](http://www.tangodj.org/)
+
+Stephen Brown´s Page:   [http://www.tejastango.com/milongas\_djsrole.html](http://www.tejastango.com/milongas_djsrole.html)
+
+Homer & Christinas Page: [http://www.theorganictangoschool.org/dj\_resource](http://www.theorganictangoschool.org/dj_resource)
+
+Tangology 101: [http://www.tangology101.com/main.cfm/title/How-to-DJ-a-Milonga/id/265](http://www.tangology101.com/main.cfm/title/How-to-DJ-a-Milonga/id/265)
+
+Tango Voice: [https://tangovoice.wordpress.com/2016/12/06/tango-dj-fundamentals-part-1-selecting-music-for-dancing-and-tanda-construction/](https://tangovoice.wordpress.com/2016/12/06/tango-dj-fundamentals-part-1-selecting-music-for-dancing-and-tanda-construction/)
+
+Tango Mentor: [http://tangomentor.com/instantdj/](http://tangomentor.com/instantdj/)
+
+Robert Hauk: [http://roberthauktango.com/articles/so-you-want-to-be-a-dj/](http://roberthauktango.com/articles/so-you-want-to-be-a-dj/)
+
+The El-Corte Manual (pdf download):  [http://www.gotango.ru/DJmanual2011.pdf](http://www.gotango.ru/DJmanual2011.pdf)
+
+Tanda of the Week: [http://tandaoftheweek.blogspot.com.au/p/tips-for-djs.html](http://tandaoftheweek.blogspot.com.au/p/tips-for-djs.html)
+
+Equalizer for Tango DJing: [https://elespejero.wordpress.com/2014/12/17/eq-4-tj-getting-the-best-sound-out-of-your-tango-records/](https://elespejero.wordpress.com/2014/12/17/eq-4-tj-getting-the-best-sound-out-of-your-tango-records/)
+
+Sound devices for Tango DJing: [https://elespejero.wordpress.com/2016/06/30/sound-card-for-tango-djs/](https://elespejero.wordpress.com/2016/06/30/sound-card-for-tango-djs/)
+
+Tango-Diavolo (modern Playlists, German): [http://www.tango-diavolo.de/Musik.html](http://www.tango-diavolo.de/Musik.html)
+
+![Tangology101 Logo](/images/mobile_logo.jpg)
+1 [back to home](/mobilemain.cfm/id/1)
+
+**More Resources for DJs**
+
+**Tango Tunes**
+[https://www.tangotunes.com/](https://www.tangotunes.com/)
+Great place to guy buy tango music.
+
+**Tango DJ Yahoo Group**
+[http://groups.yahoo.com/group/TangoDJ/](http://groups.yahoo.com/group/TangoDJ/)
+Great place to talk to other DJs.
+
+**Tanda of the Week**
+[http://tandaoftheweek.blogspot.com](http://tandaoftheweek.blogspot.com)
+This blog is updated weekly with a new tanda. The site also has great information and advice about DJing.
+
+**tango.info**
+[http://www.tango.info/](http://www.tango.info/)
+Great site with tons of information including lots of discographies.
+
+**Todo Tango**
+[http://www.todotango.com/English/Home.aspx](http://www.todotango.com/English/Home.aspx)
+Great website with lots of history articles about the music, dance and poetry of tango.
+
+**Classic Tangos Arranged by Orchestra**
+[http://www.tejastango.com/classic\_tangos.html](http://www.tejastango.com/classic_tangos.html)
+
+**Guide to Post Golden Age Recordings**
+[http://www.tejastango.com/post-golden-age.html](http://www.tejastango.com/post-golden-age.html)
+
+**Veronika Fischer's Website**
+[http://english.la-potranca.com/](http://english.la-potranca.com/)
+This website has a great guide to tango djing and lists of non-tango songs good for dancing.
+
+[clint@tangology101.com](mailto:clint@tangology101.com) | Atlanta, GA | 404-931-2455
+
+## Music Discussions for collectors, djs, fans
+* [Yahoo Tango DJ Group](https://groups.yahoo.com/group/TangoDJ)
+* [ElTango YSus Invitados](https://www.facebook.com/groups/Eltangoysusinvitados/) 19K
+* [The Tango Now Playing In My Head Is....](https://www.facebook.com/groups/156671661018682/) 9K
+* [TODAY'S TANGO IS...](https://www.facebook.com/groups/627797383984208/) 6K
+* [Alternative music for tango](https://www.facebook.com/groups/327248550700633/) 3.5K
+* [Tango By Year](https://www.facebook.com/groups/tangoyear/) 3K
+* [TDJF - Tango DJ Forum](https://www.facebook.com/groups/TangoDJForum/) 3K
+* [TIA - Tango Investigation Agency](https://www.facebook.com/groups/119582564880321/) 2.5K
+* [Tango Dj in The World(Milongas/Festivals/Marathons)](https://www.facebook.com/groups/294605417249621/) 1.3K
+* [Modern Tango Tandas](https://www.facebook.com/groups/moderntangotandas/) 800
+
+## DJs lists and directory
+* [Tango DJs for Good Sound](https://www.tangodjsforgoodsound.info/)
+* [Tango Marathon Directory DJ list](https://www.tangomarathons.com/dj-list/)
+
+## DJ curated Radio
+* [Argentine Tango Radio](http://www.argentinetangoradio.com) gyb balazstango Balázs Gyenis
+
+
+
+
+
+
+
+
+
+
+Not all tangos are for the milonga (Jantango)
+
+dchester said:
+OK, what is the distinction between tango for dancing (played at the milongas of BsAs) vs tango for the milonga?
+
+The golden era of the milongas in BsAs ran from 1948 to 1957. These milongas were located in the downtown confiterias bailables where the person in charge of the music played mainly instrumental recordings from 1938-1947. These places were not large, so the young milongueros learned to dance compactly. The tandas were announced: Vamos a bailar a Troilo con Fiorentino, and consisted of two instrumental and two vocal pieces. The milongueros were the most demanding as far as the music was concerned.
+
+In my conversations with milongueros over the years, I have learned about what recordings were played in the confiterias of San Souci, Siglo XX, La Cigalle, Montecarlo, La Metro, and La Nobel. La Nobel was located at Lavalle 890 downstairs. It closed on April 30, 1957, because of the decline in interest for tango. I danced at the place where Montecarlo once existed. It was turned into a theater and is now closed. La Metro was above the movie theater Cine Metro at Cerrito 550/570, which is now a tango house, Tango Porteno. All the confiterias are gone.
+
+There were hundreds of tango orchestras, but not all of them had recordings for dancing in the milongas. I have been told by several milongueros that the recordings of Juan D'Arienzo and Osvaldo Pugliese were rarely played in the milongas during the 1950s.
+
+Anibal Troilo recorded many tangos. He wrote the music for Sur which has the lyrics of Homero Manzi. Edmundo Rivero recorded Sur with Troilo in 1948. That doesn't mean it's a tango for the milonga; it's not.
+
+Alfredo De Angelis recorded during the 1940s, 50s, and as late as 1985. Some of his recordings are played in the milongas in Buenos Aires today. But I will take the word of milongueros Ricardo Vidort and Mario Alan "Alito" Candamil (80) that "De Angelis was the orchestra of the carousel." Alito once told me, "in my day if the deejay played De Angelis, he would have been taken out to the street and shot."
+
+Julio De Caro, Osvaldo Fresedo, and Lucio Demare were orchestras for the cabarets during the 1940s and 50s. It's common to dance to Fresedo and Demare in the BsAs milongas today.
+
+Has anyone heard of Francisco Rotundo? His orchestra recorded tangos during the 1950s with Florindo Ruiz. I never heard his name before today. Just because he recorded tango doesn't mean his music was/is for dancing in the milongas.
+
+Ricardo Malerba occasionally is played today for dancing. But try playing his recording of Cafe de los Angelitos with Libertad Lamarque and heads will turn. The singers of the milonga are all men. Her recording isn't appropriate for dancing; it is for listening.
+
+There was a time when I shared the table at Club Gricel with a group of milongueros, because my partner was one of them. I listened to them talk about the music. They wanted to hear something they loved and hadn't heard the previous week. I learned who preferred which orchestra and singer. Anibal Troilo and Carlos Di Sarli are at the top of the list for most milongueros.
+
+The job of deejay is a daunting task. It is the most important thing after a good floor to create a space for tango dancing. The deejay has to study and listen to lots of music. Dancers don't want to hear a tanda in the same order week after week. Deejays don't need to be dancers or musicians to program appropriate music. But they need a good ear for it.
+
+If other music is played for people who want to dance tango, milonga, and vals, how are they ever going to learn the orchestras of the golden age?
+
+There are tangos for listening (Gardel, Mariano Mores, Atilio Stampone, Horacio Salgan), tango for dancing (Alfredo Gobbi, Jose Basso, Florindo Sassone), and tango for the milonga (Biagi, Calo, D'Agostino, Di Sarli, Laurenz, Tanturi, Troilo).
+
+The deejay has to please the dancers. If they aren't on the floor, all moving together with the music, there is a problem--the music. Dance music has a steady rhythm that can be felt.
+
+...
+
+opendoor said:
+Exactly, and thats the reason why there are so many different milongas with so many different styles in BsAs.
+
+There are 100+ milongas each week in Buenos Aires. Afterall, it is where tango was born almost 110 years ago. Tango has been evolving during its long history and will continue to evolve. As the music changes, so does the dance.
+
+The city is large, and not everyone has the luxury of traveling by car to a milonga. Neighborhoods serve the dancers in their neighborhood.
+
+There have always been different styles in each neighborhood. The person in charge of the music must be attuned to the dancers and what they want to hear.
+
+The deejay needs to be familiar with the orchestras and know what music is preferred by the dancers where he programs the music.
+
+Yesterday I visited Club de Tango, a small office in a downtown building where books, CDs, sheet music, videos, and posters, etc. are available for purchase. The owner was Oscar Himschoot, who published the Club de Tango magazine. He wrote articles about Lunfardo words and their use in tango lyrics. Since his death in 2005, his wife Hilda operates their little shop. I went to buy a copy of a book that I've been searching for two years. It is said to be the best book published about the early years of tango. El Tango en la sociedad portena 1880-1920 by Hugo Lamas and Enrique Binda was published in 1998 in Argentina and was taken on in 2008 by Abrazos books in Germany. It has been translated to German, but not as yet to English. It's more than 450 pages. www.clubdetango.com.ar
+
+Hilda showed me a book of Oscar's that catalogues tangos, valses, and milongas alphabetically by title, with the composer and lyricist. There are 195-1/2 pages with 77 titles per page for a total of some 15,060 compositions. Someone dedicated a lot of research to finding the titles and compiling this reference book. Oscar has a copy of the author's original manuscript. There are so many who are dedicated to investigation about tango. There are probably more who listen and read about tango in BsAs than those who dance it. We all need another lifetime to learn all there is to know about tango.
+
+
+---
+### http://www.tangodj.org/
+
+this webpage was last updated in Nov 2008.
+by Tine Herreman, DJ @ tangomuse. com
+ 
+
+ 
+<!--
+![](0002410_ch.gif)![](0004303_ch%5B1%5D.gif)![](0000059_ch.gif)![](0003507_ch.gif)![](0001004_ch.gif)![](0003504_ch.gif)![](0000391_ch%5B1%5D.gif)![](0000049_ch.gif)![](0000176_ch%5B1%5D.gif)![](0002119_ch.gif)![](0000582_ch%5B1%5D.gif)![](0000991_ch.gif)![](0004336_ch%5B1%5D.gif)![](0002416_ch%5B1%5D.gif)![](0004305_ch%5B1%5D.gif)
+-->
+
+**www. tango dj .org**
+
+
+**Welcome!**
+**Resources and links**
+more coming...
+Contribute a link! [Send me a link to add to this page](http://fs16.formsite.com/tangomuse/form757240383/index.html)
+
+* * *
+
+## **_Find information_**
+
+
+
+* * *
+
+### **Building a tango collection**
+
+> [Building a collection: advice for newbies, DJs and collectors alike](http://milonga.co.uk/tango/essential.shtml), by Michael Lavocah
+> [Guide to Orchestras](http://web.acsalaska.net/%7Eredfox/web/Orchestra%20Handout2.pdf) by [Dan Boccia](http://tangotrance.blogspot.com/)
+> [Guides to Tango Music for Social Dancing](http://www.tejastango.com/tango_music.html), by Stephen and Susan Brown
+> [Tangoplaylist.com](http://www.tangoplaylist.com/) by Anton Sukhanov
+> [Tango music 101](http://www.yaletangoclub.org/tangomusic), a one-page basic intro, with starter album recommendations, and a [60-CD must- have list](http://www.tangostore.com/wishlist.php?invitado=ODE1OQ==) for beginning DJs, by Tine Herreman
+
+* * *
+
+### **DJing for tango dancers**
+
+> [The DJ's role](http://www.tejastango.com/milongas_djsrole.html), by Stephen Brown
+> [DJs about DJing](http://www.totango.net/dj.html)
+> [Veronika's advice](http://mitglied.lycos.de/lapotranca/DJing.htm)
+
+* * *
+
+###  **Tanda picks**
+
+> [Stephen Brown's Annotated List of Tandas](http://www.tejastango.com/tandas.html)
+
+* * *
+
+### **Neotango and non-tango for tango**
+
+> [Sharna's DJ List of Neo Tangos](http://www.neotango.com/neotangos.html) 
+> [neotango.info](http://www.neotango.info/)
+> [Jackie Wong's neo picks](http://www.tangopulse.net/neotango_zone_snippets.htm)
+> [neotango.de](http://www.neotango.de/)
+> [Veronika's resource](http://mitglied.lycos.de/lapotranca/non-tango.htm)
+> [review of electrotango CDs](http://mitglied.lycos.de/lapotranca/Electrotango.htm)
+
+* * *
+
+(2nd col)
+* * *
+
+### **Discographic information**
+
+> [Todotango](http://www.todotango.com/english/main.html)
+> [Discographies at tangodj.org](/discographies.html)
+> [Juan D'Arienzo discography by Johan](http://users.pandora.be/tangoteca/darienzo/index.html)
+> [Astor Piazzolla discography](http://homepage2.nifty.com/mitsu-sa/discografia_p45.htm)
+> [A beginners guide to tango record labels](http://users.pandora.be/tangoteca/tango_sellos/index.html)
+
+* * *
+
+### **CD databases**
+
+> [Gracenote](http://www.gracenote.com/)
+
+* * *
+
+### **Artist/ Musician/ Orquesta information**
+
+> [Todotango](http://www.todotango.com/english/main.html)
+> [Totango](http://www.totango.net/big8.html)
+
+
+
+* * *
+
+### **Tango lyrics**
+
+> [Gardel server](http://argentina.informatik.uni-muenchen.de/tangos/) (searchable)
+> [Todotango](http://www.todotango.com/english/main.html)
+
+* * *
+
+
+### **Links to more links**
+
+> [Tejastango Links](http://www.tejastango.com/tango_links.html)
+
+* * *
+
+* * *
+
+## **_Find stuff_**
+
+
+
+### **Get Music**
+
+### **Get Technology**
+
+* * *
+
+**CD or record stores**
+
+> [Zivals (tangostore.com)](http://www.tangostore.com) in Buenos Aires
+> [El Bandoneon](http://www.freshsoundrecords.com/search.php) in Barcelona Spain
+> [milonga.co.uk](http://www.milonga.co.uk/) in United Kingdom
+> [](http://www.classictango.com/)[Tango Nada Mas](http://www.tangonadamas.com/index.cfm) in Chicago
+> [ToTango](http://www.totango.net/cd_cart.html) in Montreal Canada
+> [The Tango Catalogue](http://www.thetangocatalogue.com/) in Massachusetts
+> [Danza y Movimiento](http://www.danzaymovimiento.com/) in Germany
+> [Club de Tango](http://www.clubdetango.com.ar/) in Buenos Aires (no credit cards)
+> [Buenos Aires Tango Club](http://www.buenosairestangoclub.com/) in Buenos Aires (no credit cards)
+
+* * *
+
+**mp3 download sources**
+
+[emusic.com](http://www.emusic.com/lists/showlist.html?lid=798617) suggested by Lars from Norway
+
+
+
+* * *
+
+* * *
+
+**Software for DJs**
+
+> [](http://en.wikipedia.org/wiki/List_of_audio_players_%28software%29)[Wikipedia comparison tables of Media Players](http://en.wikipedia.org/wiki/Comparison_of_media_players) (features, platforms, formats, etc)
+> [mp3cut](http://www.mpesch3.de/), freeware for recording, editing mp3s without decoding an re-encoding
+> [Lame encoder v3.96.1 (freeware)](http://lame.sourceforge.net/) 
+
+* * *
+
+**Portable sound**
+
+> [Dan Boccia's recommendations for sound systems](http://web.acsalaska.net/%7Eredfox/web/Sound%20System%20Recommendations2.pdf)
+> [Fender Passport](http://djmart.resultspage.com/search?p=Q&ts=custom&w=fender+passport)
+
+* * *
+
+* * *
+
+## **_Find other DJs_**
+
+  
+
+* * *
+
+### **Discussion forums**
+
+> [Tango DJ discussion forum](http://groups.yahoo.com/group/TangoDJ/)  150+ DJs and collectors from all over the world. Collaborative, friendly. We're there for the information, not the opinions. Membership must be approved. DJ's/collectors only, beginners welcome.
+
+* * *
+
+* * *
+
+### **DJ webpages**
+
+> [eng.tango.info/deejays](http://eng.tango.info/deejays) 
+> [listing on Tangopulse](http://www.tangopulse.net/tango_organizers_teachers_dj.htm)
+
+* * *
+
+* * *
+
+## **_Listen, read, enjoy_**
+
+
+
+* * *
+
+### **Online tango clips and radio stations**
+
+> [La 2x4 La Radio de Tango de Buenos Aires (by GobBsAs)](http://www.la2x4.gov.ar)
+> [Radio Cubik Network](http://www.radiotango.com/)
+> [Todotango](http://www.todotango.com/english/main.html)
+> [Tunez - Tango Radio](http://radio.zvezdelin.net/)
+> Radio Buenos Aires, listen to neotango, go to this [link](http://www.live365.com/index.live) and look up Radio Buenos Aires
+> [neotango.de](http://www.neotango.de/)
+
+* * *
+
+* * *
+
+### **Essays, articles, stories**
+
+> [Tango styles table](http://www.totango.net/styles.html)
+> [DJs about DJing](http://www.totango.net/dj.html)
+
+* * *
+
+
+
+Milonga Magic or Misery - what makes an excellent tango venue?
+Posted by Henry in Excellence series on September 26th, 2009
+
+As part of our on-going series about excellent tango, I asked Cherie — an expert tanguera and veteran blogger — to tell us a little about what makes an excellent venue.  Her comments are very insightful, even if a bit opinionated … :)
+
+By Cherie Magnus, http://tangocherie.blogspot.com
+
+I’ve been dancing tango for a long time, and in many venues around the world. And in Buenos Aires since 1997, where I now live and teach. Looking back, it seems I’ve danced everywhere-from outdoor plazas and bandstands to vacant factories to castles.
+
+Where do I enjoy dancing most? Which salons are most appealing? What are the physical requirements of a great milonga?
+
+First and most importantly, we like to go where our friends are.
+
+But then there is the space itself– basically the three types of salons are elegant traditional, modern, and funky. And I go for the elegant traditional every time.
+
+I have to say that my partner Ruben Aybar and I are very picky. Every night here in Buenos Aires there are around 20 milongas to choose from, but actually very few that we consider attending. Why?
+
+First of all, the floor is important. We like “soft” wood floors (Region Leonesa, Gricel) as opposed to hard tile (La Ideal, La Milonguita, Viejo Correo) and our knees and legs thank us for it.
+
+We also like space. We dance large when we can, and we are tall. We feel cramped when the floor is small and the ceiling is low (Maipu 444, El Beso). But other folks may feel cozy in intimate spaces.
+
+We enjoy watching the dancers, and so we like the salon to be well-lit. We are traditional, and only use the cabeceo; for that, you have to be able to see across the room. Because we like to watch, milongas that are divided up spatially aren’t appealing (Boedo Tango.)
+
+The placement and size of the tables contributes to the ambiance. Small cozy tables, with tablecloths, scattered around the floor are ideal, as opposed to clustered all in one area, or large banquet tables.
+
+Because of the importance of the music, the sound system should be good and the DJ the best. Just putting on iTunes playlists and letting them run doesn’t cut it.
+
+The organizer should make attendees feel welcome and at home. It’s nice if out of towners are introduced during announcements.
+
+The dancers hopefully are at all levels, but the majority advanced, with a flowing ronda and no crashes on the floor or high-boleo stabbings by stilettos.
+
+People are not there to get drunk or to buy drugs. They come to dance and are clean and well-dressed.
+
+We like to have good table service by a friendly waiter/waitress.
+
+Good ventilation is important, as well as fans and air conditioning in the summer.
+
+We are most comfortable where the codigos are known and observed: cortinas, cabeceo, good manners.
+
+If we can have all this in a historic ballroom with ornate chandeliers and gilt, even better.
+
+Traditional elegant salons in Buenos Aires are like this. But there are funky venues as well: La Catedral, Peru 571, Independencia 572. The floors are bad, the music may be alternative, people are dressed casually in athletic shoes. Folks go there for other reasons than to dance the best tango possible.
+
+Practicas are of course less formal, but still a good floor is necessary-dance studios if large enough can work well as practicas. There should be enough room that dancers can really practice without worrying about injuring someone else.
+
+Tango classes can be held anywhere on a good floor with a good sound system. Mirrors are nice, but not necessary.
+
+What about Festivals? I’ve been to plenty of those too, all around the world. I like it when everything is in one place-like a hotel or convention center. I wasted so much time, for example, in Amsterdam trying to find my way around to various studios/clubs/salons.
+
+I used to attend Norah’s Tango Week outside of San Francisco, and while perhaps it wasn’t the most gorgeous of venues, I liked that my room, the classes, and the nightly shows and milongas were all at one place-in this case, the Holiday Inn.
+
+Many factors make up a good tango venue, and when they all are there, the effect can be magical and keep dancers returning time and time again. It’s worth it to think about the ambiance, because when it all comes together and makes magic, the dancing does too.
+
+
+
+I am very pleased to announce that today’s blog entry was written by Debbi of An Ever Fixed Mark.
+https://web.archive.org/web/20100303164517/http://an-ever-fixed-mark.blogspot.com/
+  Debbi has spent the last couple of months in Buenos Aires and has gravitated towards the more traditional milongas.
+
+I asked Debbi what, in her opinion, makes an excellent milonga.  Debbi’s answer is intricate and intertwined, but ultimately lands on a simple answer …
+
+—
+
+From the outside it does not look like much, a doorway with large iron security grates partly closed, where someone perched on a stool is greeting and eyeing those who enter.  Not with an unfriendly eye, but certainly an attentive one.  Smokers congregate at the doorway, challenging the car exhaust with their own plumes of smoke.  Stepping inside transports you to a different world from the one on the street, a huge marble floor lies before you, a grand staircase made of marble and iron to your right invites you to step up towards the strains of D’Arienzo floating down from above.  At the top, you are greeted, pay your Entrada, and receive your ticket.  Before entering through the dark red velvet curtain separating you from Senor D’Arienzo, you must first go to the bano and change your shoes.  Only then can you part the curtain and allow the milonga world to wash over you.  Other sounds merge with the music; the clinking of glasses, murmur of Castellano, and the soft shuffle of shoes across an old wooden dance floor.  The host greets you, and if he knows you, kisses your cheek before escorting you to your table.  Women on the left, men on the right.  The better dancer you are, and/or the more well known you are, the closer you are to the edge of the dance floor and the center of the room.  As you settle at your table, stowing your belongings beneath, a waitress appears at your elbow.  Drinks ordered, and perhaps a tostada or empanada, and it is time to begin your pre-game routine.  Watch the floor.  Pay attention to who the better dancers are, and, perhaps just as importantly, who the horror shows are.  As the tanda ends, the women are escorted back to their tables, and you must watch to see who is sitting where.  The cortina plays, about a minute worth of an old Pat Benatar song from the 1980’s.  Next tanda begins, Biagi.  Eyes seek out eyes.  Slight inclinations of the heads create couples and women are collected from their tables.  The game is afoot.  You find your intended, they find you, and a deal is struck from across the floor.  As the embrace is created, arms circling shoulders and backs, the circuit is complete and the dance begins.
+
+That is an overall generalized account of one traditional milonga here in Buenos Aires, although all but the description of the surroundings could be used for most all of the traditional milongas.  Some milongas are better than others, and a few are great.  What is it that makes them great? That is really a matter of personal preference for the most part, but when so many personal preferences agree, they must be doing something right.
+
+In my opinion, number one is music.  When the music is great, you will forgive the little aesthetic details, such as worn out tablecloths or bare walls.  The music is not only a good mix of known Golden Age music, but the DJ keeps his or her attention on the dancers, increasing or decreasing the energy of the room with strategic selections.  Pacing the energy. Creating tandas where the first song makes you say, “Oh man, I gotta dance this one!” regardless of how tired you are.  If there is less known music, it is skillfully added into the line up.  There is not tanda after tanda of “I found this music in an archive, it has never been played since 1953!”  Well, there very well might be a reason it had been shoved away and not played since 1953, and giving us three tandas of it might find a DJ playing music to people sitting down and muttering angrily about “What exactly is wrong with DiSarli?!?!?”  A very interesting conversation I had with a tango musician recently brought out this excellent suggestion.  “It is fine to play ‘interesting’ music, but the DJ better well have grabbed his dance partner and danced to it before playing it in the milonga!”  I could not agree more.
+
+After that, the next most important aspect to a great milonga is – Know Your Target Audience!!! Here is BA they looooove performances.  So there is usually at least a half an hour of performances, if that milonga has performances.  Some don’t. Sometimes multiple couples perform, sometimes it is not tango that is being performed, but folklorica, and sometimes it is longer than 30 minutes. In the States, a half hour of performances may cause mutiny.  Or it might not.  But it is up to the organizer to know this piece of information.  Other important things to know, are all of the little things that make the majority happy and keep them coming back – lighting, seating, food, beverage, cost, venue, live music, floor condition, A/C… all those “atmospheric” things that create a vibe, an energy to the place.  Make sure your floor layout has a good “marriage” with the layout of the room, it should be easy to get around without walking across the dance floor if at all possible.
+
+A pet peeve is when the milonga is set up according to the specific preferences of the organizer.  I have been to traditional milongas, both in BA and in the States, where everything was obviously set up according to what the organizer liked best, and not what their target audience liked, and it was reflected in the attendance.  Along with my lack of a return visit.
+
+So what makes a great milonga? An organizer who does his or her homework and creates an event geared towards a large audience whom they hope to make “regulars”.  For traditional in BA, that means cabeceo, which means light!  In the States, cabeceo is much less used, so lighting tends to be darker for a more “atmospheric” feeling.  There was a huge topic in the tango blog world about lighting in milongas very recently, and I have to say, after being here in BA, I am leaning more towards light-er so that at least cabeceo is an option.  Other factors are a host who has a presence, who makes you feel that he or she has a stake in your enjoyment of the evening and is not just there to collect your money.  The environment should be inviting, not sterile; the set up of the room must make you want to stay there for hours on end, and not feel deflated or claustrophobic after one hour.  There is a study in psychology as to the impact of one’s psyche from their surroundings — McDonald’s made use of it, they discovered that the color orange stimulates one’s appetite.  Hence the use of it in their chains.  Now I am not saying study what colors and environment make for happy tango dancers and stick to that, most venues won’t be happy if you show up with gallons of paint.  But make your space into something specific, be it cozy, elegant, casual, etc. by enhancing what you do have.  All that being said, there are instances where the venue itself creates all of the atmosphere needed for the dancers, and these are the outdoor milongas.  Two that spring to mind are La Glorieta in BA which is held in a gorgeous gazebo in a park in Belgrano, and Tango Porteno at the South Street Sea Port in NYC which is held on Pier 16 beneath the awesome presence of the historic Peking ship and the harbor stretched out before you.  Both milongas have nothing but atmosphere and good music, but that is more than enough to make it successful.
+
+All in all, the essence of a good milonga is a great organizer.
+
+3 Comments
+Excellence pt. 2: Venues for tango milongas, tango classes, and tango festivals
+
+
+
+https://web.archive.org/web/20100316140845/http://simbatango.com/2009/06/07/how-to-organize-a-milonga
+

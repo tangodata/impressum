@@ -1,0 +1,17 @@
+{
+  "name": "impressum-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "generate": "nuxi generate",
+    "preview": "nuxi preview"
+  },
+  "devDependencies": {
+    "nuxt": "^3.11.2"
+  },
+  "base": {
+    "tangodata/impressum": "latest"
+  }
+}
