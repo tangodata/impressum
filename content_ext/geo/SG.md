@@ -1,5 +1,0 @@
----
-layout: geoguide
----
-
-# Geography | Singapore

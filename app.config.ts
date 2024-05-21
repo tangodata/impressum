@@ -160,63 +160,11 @@ export default defineAppConfig({
   testmenu: [
     {groupname: 'Top', items: [
       {name: 'Home', link: '/'},
+      {name: 'Lost', link: '/lost'},
       {name: 'About', link: '/about'},
-      {name: 'Demo', link: '/demo'},
-      {name: 'News', link: '/news'},
-      {name: '(dmoz)', link: '/m/tp/dmoz'},
-      {name: 'Guide', link: '/guide'},
-    ]},
-
-    {groupname: 'Tests', items: [
-      {name: '1', link: '/test/markdown'},
-      {name: '2', link: '/test/blockquote'},
-      {name: '3', link: '/test/tufte'},
-      {name: '4', link: '/test/math'},
-      {name: '5', link: '/test/mermaid'},
-      {name: 'P', link: '/about/legal/privacy'},
-      {name: 'T', link: '/about/legal/terms'},
-    ]},
-
-
-    {groupname: '@Creators/channels', items: [
-      {name: 'Tintimo (Watch)', link: '/m/ti'},
-      {name: 'A-artistes', link: '/r/aa'},
-      {name: 'A-spaces(showtime)', link: '/r/ax'},
-      {name: 'Tnews (Read-discuss)', link: '/m/tn'},
-      {name: 'A-radio-tv', link: '/r/ar'},
-    ]},
-
-
-    {groupname: '@Events/@Ecommerce', items: [
-      {name: 'Tfinder (Dance-where)', link: '/m/tf'},
-      {name: 'A-tours', link: '/r/at'},
-      {name: 'Tlicious (Fashion)', link: '/m/tl'},
-      {name: 'A-moda', link: '/r/am'},
-      {name: 'A-spaces(commerce)', link: '/r/ax'},
-    ]},
-
-
-    {groupname: '@Training/@Members', items: [
-      {name: 'Tdance (Dance-how,Body)', link: '/m/td'},
-      {name: 'A-spaces(gym)', link: '/r/ax'},
-      {name: 'AClub', link: '/m/ac'},
-    ]},
-
-    {groupname: 'Academy', items: [
-      {name: 'Torg', link: '/m/to'},
-      {name: 'Tpedia (Read-articles)', link: '/m/tp'},
-      {name: '(lexicons)', link: '/m/tp/lexicons'},
-      {name: 'Tmusic (Listen)', link: '/m/tm'},
-      {name: 'A-publish', link: '/r/ap'},
-    ]},
-
-    {groupname: 'Future', items: [
-      {name: 'Teast', link: '/m/te'},
-      {name: 'Tnet', link: '/m/tx'},
-      {name: 'A-lab', link: '/r/al'},
-      {name: 'A-digital', link: '/r/ad'},
-      {name: '(appstore)', link: '/m/tx'},
     ]},
   ],
+
+  myname: ['John'],
 
 })

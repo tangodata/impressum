@@ -5,36 +5,6 @@ const isDev = process.env.NODE_ENV === 'development'
 //const apiBaseUrl = 'https://tangueros.net'
 const apiBaseUrl = 'http://localhost:3000'
 
-//===========================================================
-
-//source in a subdirectory
-const guidegeo = {
-  prefix: '/guide/geo',
-  base: '/code/telematiq/tnuxt/content_ext/geo',
-  driver: 'fs',
-}
-
-const guidecyber = {
-  prefix: '/guide',
-  base: '/code/telematiq/tnuxt/content_ext/cyber',
-  driver: 'fs',
-}
-
-const impdb = {
-  prefix: '/impdb',
-  base: '/code/telematiq/tnuxt/content_ext',
-  driver: 'fs',
-}
-
-//source in a github
-const citiesdb = {
-  prefix: '/db/cities',
-  driver: 'github', token: process.env.NUXT_GITHUB_TOKEN || '',
-  repo: 'tangodata/registry-tango-cities', branch: 'main',
-  dir: '',
-  name: 'citiesdb',
-}
-
 
 //===========================================================
 
@@ -58,8 +28,6 @@ const wikilink = {
   newClassName: 'wikinew',
 };
 
-
-//===========================================================
 //===========================================================
 
 
@@ -106,11 +74,6 @@ export default defineNuxtConfig({
 
     //----------------------------------------
     //multiple sources
-    sources: {
-      guidecyber, // /guide/*
-      guidegeo,  // /guide/geo/*
-      impdb, // /impdb*
-    },
 
     markdown: {
       //anchorLinks: {}

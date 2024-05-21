@@ -32,6 +32,8 @@ main
         template(v-for="i in j.items")
           NuxtLink(:to="i.link") {{i.name}}
           | &nbsp;|&nbsp;
+    //-p END OF MENU
+    //-pre {{  menu }}
 
   slot(name="sidebar" :hassidebar="hassidebar")
     p.sample SIDEBAR (hassidebar={{ hassidebar }})

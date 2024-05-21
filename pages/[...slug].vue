@@ -97,10 +97,10 @@ NuxtLayout()
 
 <style lang="scss">
 article {
-  @apply  bg-slate-100 mx-0 px-4;
+  @apply  bg-white mx-0 px-4;
 }
 article div {
-  @apply  bg-white prose w-full mx-0 px-0 border
+  @apply  prose w-full mx-0 px-0
   ;
 }
 </style>

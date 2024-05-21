@@ -1,4 +1,0 @@
----
----
-
-# Geography | South Korea

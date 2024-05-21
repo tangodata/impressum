@@ -1,4 +1,0 @@
----
----
-
-# Geography | United Arab Emirates
