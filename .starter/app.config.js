@@ -178,8 +178,8 @@ export default defineAppConfig({
       {name: '333', link: '/test/3'},
       {name: '444', link: '/test/4'},
       {name: '555', link: '/test/5'},
-      {name: 'lost', link: '/lost'},
-      {name: 'about', link: '/about'},
+      //{name: 'lost', link: '/lost'},
+      //{name: 'about', link: '/about'},
     ]},
   ],
 

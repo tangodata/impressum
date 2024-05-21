@@ -17,11 +17,11 @@ jobs:
           node-version: 20
           cache: "pnpm"
       - run: pnpm install
-      - run: pnpm run build
+      - run: pnpm run generate
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./.output/public
+          path: ./.starter/.output/public
 
   deploy:
     needs: build

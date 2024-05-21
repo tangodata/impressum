@@ -3,8 +3,10 @@ layout: default
 head:
   title: Alpine
 description: An open source blog theme powered by Nuxt.
-title: About
+title: The Impressum Starter
 ---
+
+# Impressum Starter
 
 hero
 ---
