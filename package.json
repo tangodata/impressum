@@ -22,6 +22,9 @@
   },
   "autostuffs": {
     "@nuxtjs/tailwindcss": "^6.12.0",
-    "@tailwindcss/typography": "^0.5.13"
+    "@tailwindcss/typography": "^0.5.13",
+    "@iconify-json/heroicons": "^1.1.21",
+    "@iconify-json/simple-icons": "^1.1.101",
+    "nuxt-og-image": "3.0.0-rc.53"
   }
 }
