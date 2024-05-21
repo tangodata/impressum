@@ -17,6 +17,8 @@
     "@nuxt/fonts": "^0.7.0",
     "@nuxt/image": "^1.7.0",
     "@nuxt/ui": "^2.16.0",
+    "@iconify-json/heroicons": "^1.1.21",
+    "@iconify-json/simple-icons": "^1.1.101",
     "daisyui": "^4.11.1",
     "nuxt": "^3.11.2",
     "pug": "^3.0.2",
@@ -26,8 +28,6 @@
   "autostuffs": {
     "@nuxtjs/tailwindcss": "^6.12.0",
     "@tailwindcss/typography": "^0.5.13",
-    "@iconify-json/heroicons": "^1.1.21",
-    "@iconify-json/simple-icons": "^1.1.101",
     "nuxt-og-image": "3.0.0-rc.53"
   }
 }
