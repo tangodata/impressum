@@ -6,4 +6,9 @@ export default defineNuxtConfig({
   ],
   modules: [
   ],
+  app: {
+    //NUXT_APP_BASE_URL
+    baseURL: "/impressum/",
+  },
+
 })
