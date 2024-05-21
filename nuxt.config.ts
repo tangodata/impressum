@@ -108,7 +108,7 @@ export default defineNuxtConfig({
       globals.forEach(c => c.global = true)
     }
   },
-  ui: {
+  __ui: {
     icons: ['heroicons', 'simple-icons']
   },
   __routeRules: {

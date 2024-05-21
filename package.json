@@ -4,7 +4,7 @@
   "type": "module",
   "main": "./nuxt.config.js",
   "scripts": {
-    "devtheme": "nuxt dev",
+    "local": "nuxt dev",
     "dev": "nuxt dev .starter",
     "build": "nuxt build .starter",
     "generate": "nuxt generate .starter",
