@@ -12,11 +12,13 @@
     "prepare": "nuxi prepare && nuxi prepare .starter",
     "postinstall": "nuxi prepare && nuxi prepare .starter"
   },
-  "devDependencies": {
+  "dependencies": {
     "@nuxt/content": "^2.12.1",
+    "@nuxt/ui": "^2.16.0"
+  },
+  "devDependencies": {
     "@nuxt/fonts": "^0.7.0",
     "@nuxt/image": "^1.7.0",
-    "@nuxt/ui": "^2.16.0",
     "@iconify-json/heroicons": "^1.1.21",
     "@iconify-json/simple-icons": "^1.1.101",
     "daisyui": "^4.11.1",
