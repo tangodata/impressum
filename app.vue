@@ -41,8 +41,8 @@ div
   //-AppHeader
   //-UMain
   main
-    //NuxtLayout
-    NuxtPage
+    NuxtLayout
+      NuxtPage
   //-AppFooter
 
   //-ClientOnly

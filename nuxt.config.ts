@@ -32,7 +32,7 @@ const wikilink = {
 
 
 export default defineNuxtConfig({
-  devtools: { enabled: false },
+  devtools: { enabled: true },
   modules: [
     "@nuxt/content",
 
@@ -44,21 +44,11 @@ export default defineNuxtConfig({
 
     "@nuxt/fonts",
     "@nuxt/image",
-    //"@nuxthq/studio",
 
+    //"@nuxthq/studio",
     //"nuxt-og-image",
     //'@nuxtjs/i18n',
   ],
-  runtimeConfig: {
-    public: {apiBaseUrl, },
-  },
-
-  tailwindcss: {
-    exposeConfig: true,
-    //viewer: true,
-  },
-  colorMode: {
-  },
 
   content: {
     //documentDriven: true,
@@ -92,29 +82,40 @@ export default defineNuxtConfig({
 
   },
 
-  // hooks: - extend ui components to md
-  // ui
-  routeRules: {
-    ///api/search.json prerender true
-    //'/api/'
-  },
-  colorMode: {preference: 'dark',},
+  __colorMode: {preference: 'dark',},
 
-  hooks: {                                                                           // Define `@nuxt/ui` components as global to use them in `.md` (feel free to add those you need)
+  __hooks: {                                                                           // Define `@nuxt/ui` components as global to use them in `.md` (feel free to add those you need)
     'components:extend': (components) => {
       const globals = components.filter(c =>
         [
-	  'UButton', 'UIcon',
-	].includes(c.pascalName))
-
+          'UButton', 'UIcon',
+        ].includes(c.pascalName))
       globals.forEach(c => c.global = true)
     }
   },
-  ui: {
-    icons: ['heroicons', 'simple-icons']
-  },
   __routeRules: {
-    '/api/search.json': { prerender: true }
+    //'/api/search.json': { prerender: true }
+    // /api/search.json prerender true
+    //'/api/'
+  },
+
+
+  __components: [
+    {
+      path: '~/compo_ui',
+      global: true,
+      prefix: 'U',
+      pathPrefix: false,
+    },
+  ],
+
+  ui: {
+    global: true,
+    icons: ['heroicons', 'simple-icons', 'logos',],
+  },
+
+  runtimeConfig: {
+    public: {apiBaseUrl, },
   },
 
 })

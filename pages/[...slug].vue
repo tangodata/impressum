@@ -78,28 +78,32 @@ const links = computed(() => [toc?.bottom?.edit && {
 
 
 <template lang="pug">
-NuxtLayout()
-  //:skin="data.skin")
-  article: div
-    ContentDoc
-      template(#not-found)
-        h1 Content at {{route.path}} Not Found
-        hr
-        a(href="/") Back to Home
+article.prose
+  ContentDoc
+    template(#not-found)
+      h1 Content at {{route.path}} Not Found
+      p
+      a(href="/") Back to Home
 
-  //ContentRenderer(:value="data")
-    h1 {{ data.title }}
-    h2 skin is {{ data.skin || "None" }}
-    hr
-    ContentRendererMarkdown(:value="data")
+    template(#empty)
+      h1 Content at {{route.path}} is Empty
+      p
+      a(href="/") Back to Home
+
+
+//--ContentRenderer(:value="data")
+  h1 {{ data.title }}
+  h2 skin is {{ data.skin || "None" }}
+  hr
+  ContentRendererMarkdown(:value="data")
 
 </template>
 
 <style lang="scss">
-article {
+xarticle {
   @apply  bg-white mx-0 px-4;
 }
-article div {
+xarticle div {
   @apply  prose w-full mx-0 px-0
   ;
 }
