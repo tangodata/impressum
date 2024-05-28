@@ -11,7 +11,7 @@ footer(:class="ui.wrapper" v-bind="attrs")
         slot(name="right")
       div(:class="ui.bottom.center")
         slot(name="center")
-          UFooterLinks(:links="links")
+          UFooterLinks(:links="links" class="")
       div(:class="ui.bottom.left")
         slot(name="left")
 </template>
@@ -21,14 +21,14 @@ const config = {
   wrapper: 'relative',
   top: {
     wrapper: 'border',
-    container: 'py-2 lg:py-4'
+    container: 'py-0 lg:py-2'
   },
   bottom: {
     wrapper: '',
-    container: 'py-4 lg:py-2 lg:flex lg:items-center lg:justify-between lg:gap-x-3',
-    left: 'flex items-center justify-center lg:justify-start lg:flex-1 gap-x-1.5 mt-3 lg:mt-0 lg:order-1',
-    center: 'mt-3 lg:mt-0 lg:order-2 flex items-center justify-center',
-    right: 'lg:flex-1 flex items-center justify-center lg:justify-end gap-x-1.5 lg:order-3'
+    container: 'py-2 md:py-1 md:flex md:items-center md:justify-between md:gap-x-3',
+    left: 'flex items-center justify-center md:justify-start md:flex-1 gap-x-1.5 mt-3 md:mt-0 md:order-1',
+    center: 'mt-3 md:mt-0 md:order-2 flex items-center justify-center',
+    right: 'md:flex-1 flex items-center justify-center md:justify-end gap-x-1.5 md:order-3'
   }
 }
 

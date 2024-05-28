@@ -1,7 +1,6 @@
 <template lang="pug">
-pre links is {{ links }}
-hr
-ul(v-if="links?.length" :class="ui.wrapper" v-bind="attrs")
+
+ul(v-if="links" :class="ui.wrapper" v-bind="attrs")
   li(v-for="(link, index) of links" :key="index" class="relative")
     ULink(:class="ui.base" :active-class="ui.active"
       :inactive-class="ui.inactive"
@@ -16,18 +15,6 @@ ul(v-if="links?.length" :class="ui.wrapper" v-bind="attrs")
 
 <script setup>
 import { getULinkProps } from '#ui/utils'
-const appConfig = useAppConfig()
-
-const config = computed(() => ({
-  wrapper: 'flex flex-col md:flex-row items-center justify-center gap-4 lg:gap-6',
-  base: 'text-sm',
-  active: 'text-gray-900 dark:text-white font-medium',
-  inactive: 'text-gray-500 dark:text-gray-400 hover:text-gray-600 dark:hover:text-gray-300',
-  externalIcon: {
-    name: appConfig.ui.icons.external,
-    base: 'w-3 h-3 absolute top-0.5 -right-3.5 text-gray-400 dark:text-gray-500',
-  },
-}))
 
 const props = defineProps({
   links: {
@@ -44,12 +31,35 @@ const props = defineProps({
   },
 })
 
+const appConfig = useAppConfig()
+
+const config = computed(() => ({
+  wrapper: 'flex flex-col md:flex-row items-center justify-center gap-4 lg:gap-6',
+  base: 'text-sm',
+  active: 'text-gray-900 dark:text-white font-medium',
+  inactive: 'text-gray-500 dark:text-gray-400 hover:text-gray-600 dark:hover:text-gray-300',
+  externalIcon: {
+    name: appConfig.ui.icons.external,
+    base: 'w-3 h-3 absolute top-0.5 -right-3.5 text-gray-400 dark:text-gray-500',
+  },
+}))
+
+const {ui, attrs } = useUI('footer.links',
+//  toRef(props, 'ui'),
+//  config,
+//  toRef(props, 'class'),
+//  true,
+)
+
+
+/*
 const {ui, attrs } = useUI('footer.links',
   toRef(props, 'ui'),
   config,
   toRef(props, 'class'),
   true,
 )
+*/
 
 defineOptions({ inheritAttrs: false })
 </script>

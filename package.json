@@ -1,36 +1,28 @@
 {
-  "name": "tangodata/impressum",
-  "version": "0.0.1",
+  "name": "impressum",
+  "version": "1.0.0",
   "type": "module",
-  "main": "./nuxt.config.js",
+  "main": "nuxt.config.js",
   "scripts": {
-    "local": "nuxi dev",
-    "dev": "nuxi dev .starter",
-    "build": "nuxi build .starter",
-    "generate": "nuxi generate .starter",
-    "preview": "nuxi preview .starter",
-    "prepare": "nuxi prepare && nuxi prepare .starter",
-    "postinstall": "nuxi prepare && nuxi prepare .starter"
+    "dev": "nuxi dev",
+    "generate": "nuxi generate",
+    "preview": "nuxi preview",
+    "prepare": "nuxi prepare"
   },
   "dependencies": {
     "@iconify-json/heroicons": "^1.1.21",
     "@iconify-json/logos": "^1.1.42",
-    "@iconify-json/simple-icons": "^1.1.102",
+    "@iconify-json/simple-icons": "^1.1.103",
     "@nuxt/content": "^2.12.1",
     "@nuxt/fonts": "^0.7.0",
-    "@nuxt/image": "^1.7.0",
-    "@nuxt/ui": "^2.16.0",
-    "daisyui": "^4.11.1",
-    "nuxt-og-image": "3.0.0-rc.53",
-    "remark-wiki-link": "^2.0.1",
-    "sitemap": "^8.0.0"
+    "@nuxt/image": "1.7.0",
+    "@nuxt/ui": "^2.16.0"
   },
   "devDependencies": {
     "nuxt": "^3.11.2",
     "pug": "^3.0.3"
   },
-  "autostuffs": {
-    "@nuxtjs/tailwindcss": "^6.12.0",
-    "@tailwindcss/typography": "^0.5.13"
+  "junk": {
+    "@iconify-json/ph": "^1.1.13"
   }
 }

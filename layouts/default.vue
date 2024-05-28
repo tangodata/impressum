@@ -1,33 +1,31 @@
-<template lang="pug">
-frame(fmt="default" :skin="skin")
-  slot
-
-  //template(#sidebar)
-  //  p you are in default
-
-  //template(#footer)
-  //  SiteFooter
-  //template(#header)
-  //  SiteHeader
-</template>
-
 <script setup>
-import frame from "./chrome/frame.vue"
-const props = defineProps(['skin'])
-
-/*
-import { inject } from 'vue'
-const skin = inject('subsite')
-const skin = 'AC'
-const props = defineProps({
-  skin:{
-    type: String,
-    default: '',
-  },
-  hassidebar: {
-    type: Boolean,
-    default: false,
-  },
-})
-*/
+const {toplinks} = useAppConfig()
 </script>
+
+<template lang="pug">
+main(class="bg-white pa-2")
+  header(class="bg-slate-800 text-white")
+    nav.flex
+      .title.flex.px-4
+        b HEADER
+      ul(class="flex text-xs")
+        li(v-for="item in toplinks"
+          class="flex px-2 border")
+          NuxtLink(:to="item.link") {{ item.name }}
+
+  hr
+  UMain
+    UContainer(
+      ssclass="min-h-screen flex items-start")
+      slot
+  hr
+  //-pre toplinks {{ toplinks  }}
+  hr
+  UFooter(:links="toplinks")
+    template(#top)
+      b BASE THEME FOOTER
+    template(#left)
+      span Copyright
+    template(#right)
+      span FB TW
+</template>
