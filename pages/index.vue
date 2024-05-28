@@ -1,10 +1,7 @@
 <template lang="pug">
 div.prose
-  h1 Welcome to TT-UI
+  h1 Impressum (Base) 
   hr
-  p You love it!
+  p You'll love it!
   p
-  NuxtLink(to="/about") About Us
-  p
-  a(href="#contact" ) Contact Us
 </template>

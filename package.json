@@ -4,9 +4,12 @@
   "type": "module",
   "main": "nuxt.config.js",
   "scripts": {
+    "doc:dev": "nuxi dev .starter",
     "dev": "nuxi dev",
+    "doc:generate": "nuxi generate .starter",
     "generate": "nuxi generate",
     "preview": "nuxi preview",
+    "doc:prepare": "nuxi prepare .starter",
     "prepare": "nuxi prepare"
   },
   "dependencies": {
