@@ -1,6 +1,7 @@
 {
   "name": "impressum",
-  "version": "1.0.0",
+  "author": "kaceo",
+  "version": "0.0.1",
   "type": "module",
   "main": "nuxt.config.js",
   "scripts": {
