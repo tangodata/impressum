@@ -19,7 +19,7 @@ jobs:
       - run: pnpm install
       - run: pnpm run doc:generate
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./.starter/.output/public
 
@@ -35,4 +35,4 @@ jobs:
     steps:
       - name: Deploy to GHP
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v3

@@ -1,6 +1,7 @@
 # Impressum
 
-npm impressum
+npm package: tangodata/impressum
+npm author: @kaceo
 
 ## What this Nuxt Layer does
 
@@ -24,7 +25,7 @@ In the consumer repo, add this to the Nuxt.config.ts:
 
 ~~~
 
-extends: ['impressum'],
+extends: ['tangodata/impressum'],
 
 ~~~
 
@@ -33,7 +34,7 @@ and add this to the package.json:
 ~~~
 
 "dependencies": {
-  "impressum": "latest"
+  "tangodata/impressum": "latest"
 }
 ~~~
 
