@@ -6,7 +6,7 @@ export default defineAppConfig({
     footer: {
       links: [
         {label: 'home', click: '/',},
-        {label: 'about', click: '/about',},
+        //{label: 'about', click: '/about',},
       ],
     },
 
@@ -14,8 +14,8 @@ export default defineAppConfig({
 
   toplinks: [
     {name: 'Home', link: '/',},
-    {name: 'About', link: '/about',},
     {name: 'Play', link: '/play',},
-    {name: 'Test', link: '/test',},
+    //{name: 'About', link: '/about',},
+    //{name: 'Test', link: '/test',},
   ],
 })

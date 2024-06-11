@@ -179,9 +179,22 @@ export default defineAppConfig({
       {name: '444', link: '/test/4'},
       {name: '555', link: '/test/5'},
       //{name: 'lost', link: '/lost'},
-      //{name: 'about', link: '/about'},
+      {name: 'about', link: '/about'},
     ]},
   ],
 
   myname: ()=>['Mary'],
+
+
+  toplinks: ()=>[
+    {name: 'Home', link: '/',},
+    {name: 'Play', link: '/play',},
+    {name: 'About', link: '/about',},
+    {name: 'Test', link: '/test',},
+      {name: '111', link: '/test/1'},
+      {name: '222', link: '/test/2'},
+      {name: '333', link: '/test/3'},
+      {name: '444', link: '/test/4'},
+      {name: '555', link: '/test/5'},
+  ],
 })
