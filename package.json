@@ -16,7 +16,10 @@
     "generate": "nuxi generate layer",
     "preview": "nuxi preview layer",
     "doc:prepare": "nuxi prepare .starter",
-    "prepare": "nuxi prepare layer"
+    "prepare": "nuxi prepare layer",
+
+    "release": "bumpp layer/package.json --commit --push --tag",
+    "publish": "cd layer && pnpm publish"
   },
   "dependencies": {
     "@iconify-json/heroicons": "^1.1.21",
@@ -28,6 +31,7 @@
     "@nuxt/ui": "^2.16.0"
   },
   "devDependencies": {
+    "bumpp": "^9.2.0",
     "nuxt": "^3.11.2",
     "pug": "^3.0.3"
   },
