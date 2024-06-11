@@ -18,7 +18,7 @@
     "doc:prepare": "nuxi prepare .starter",
     "prepare": "nuxi prepare layer",
     "release": "bumpp layer/package.json --commit --push --tag",
-    "publish": "cd layer && pnpm publish"
+    "publish": "cd layer && npm publish"
   },
   "dependencies": {
     "@iconify-json/heroicons": "^1.1.21",
