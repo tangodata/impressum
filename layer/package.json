@@ -1,7 +1,7 @@
 {
   "name": "@kaceo/impressum",
   "author": "kaceo",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "main": "nuxt.config.js",
   "packageManager": "pnpm@9.1.3",
