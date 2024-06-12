@@ -23,12 +23,24 @@ export default defineAppConfig({
     },
     search: true,
     colorMode: true,
-    links: [{
+    alinks: [{
       'icon': 'i-simple-icons-github',
       'to': 'https://github.com/tangueros/tnext',
       'target': '_blank',
       'aria-label': 'Docs template on GitHub'
-    }]
+    }],
+    links: ()=>[
+      {label: 'Home', to: '/',},
+      {label: 'Play', to: '/play',},
+      {label: 'About', to: '/about',},
+      {label: 'Test', to: '/test',},
+        {label: '111', to: '/test/1'},
+        {label: '222', to: '/test/2'},
+        {label: '333', to: '/test/3'},
+        {label: '444', to: '/test/4'},
+        {label: '555', to: '/test/5'},
+    ],
+
   },
 
   footer: {
@@ -186,15 +198,4 @@ export default defineAppConfig({
   myname: ()=>['Mary'],
 
 
-  toplinks: ()=>[
-    {name: 'Home', link: '/',},
-    {name: 'Play', link: '/play',},
-    {name: 'About', link: '/about',},
-    {name: 'Test', link: '/test',},
-      {name: '111', link: '/test/1'},
-      {name: '222', link: '/test/2'},
-      {name: '333', link: '/test/3'},
-      {name: '444', link: '/test/4'},
-      {name: '555', link: '/test/5'},
-  ],
 })

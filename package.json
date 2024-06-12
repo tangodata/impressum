@@ -6,19 +6,19 @@
   "main": "layer/nuxt.config.js",
   "packageManager": "pnpm@9.1.3",
   "engines": {
-    "node": ">=10",
-    "pnpm": ">=3"
+    "node": ">=12",
+    "pnpm": ">=8"
   },
   "scripts": {
-    "doc:dev": "nuxi dev .starter",
-    "dev": "nuxi dev layer",
+    "doc:dev": "nuxi dev .starter --no-qr",
+    "dev": "nuxi dev layer --no-qr",
     "doc:generate": "nuxi generate .starter",
     "generate": "nuxi generate layer",
     "preview": "nuxi preview layer",
     "doc:prepare": "nuxi prepare .starter",
     "prepare": "nuxi prepare layer",
     "release": "bumpp layer/package.json --commit --push --tag",
-    "publish": "cd layer && npm publish"
+    "publish": "echo 'cd layer && npm publish'"
   },
   "dependencies": {
     "@iconify-json/heroicons": "^1.1.21",
@@ -30,8 +30,9 @@
     "@nuxt/ui": "^2.16.0"
   },
   "devDependencies": {
-    "bumpp": "^9.2.0",
-    "nuxt": "^3.11.2",
+    "@nuxt/kit": "^3.12.1",
+    "bumpp": "^9.4.1",
+    "nuxt": "^3.12.1",
     "pug": "^3.0.3"
   },
   "junk": {

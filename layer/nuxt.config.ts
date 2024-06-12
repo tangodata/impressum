@@ -1,5 +1,13 @@
-//tt/ttui
+import { createResolver } from '@nuxt/kit'
+const { resolve } = createResolver(import.meta.url)
+
 export default defineNuxtConfig({
+  future: {
+    compatibilityVersion: 4,
+  },
+
+  alias: { '#base': resolve('./') },
+
   devtools: {enabled: false},
 
   devServer: {
@@ -7,21 +15,11 @@ export default defineNuxtConfig({
     port: 3000,
   },
 
-    //'@nuxt/content',
-  
   modules: [
     '@nuxt/ui',
     '@nuxt/image',
     '@nuxt/fonts',
-  ],
-
-  components: [
-    {
-      path: 'compo_ui',
-      global: true,
-      prefix: 'U',
-      pathPrefix: false,
-    },
+    //'@nuxt/content',
   ],
 
   ui: {
@@ -32,5 +30,19 @@ export default defineNuxtConfig({
       'logos',
     ],
   },
+
+  css: [
+    '#base/app/assets/css/main.css',
+  ],
+
+  components: [
+    {
+      path: '#base/app/compo_ui', pathPrefix: false, prefix: 'U',
+      //global: true,
+    },
+    {
+      path: '#base/app/components', pathPrefix: false,
+    },
+  ],
 
 })

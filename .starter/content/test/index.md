@@ -3,13 +3,7 @@ layout: tx
 title: Info Page
 ---
 
-<route>
-meta:
-  layout: tx
-</route>
-
-
-# Markdown Information Test Suite
+# Markdown Test Suite
 
 
 The quick _brown_ fox __jumps__ over the ___lazy___ dog.{.bg-red-300}

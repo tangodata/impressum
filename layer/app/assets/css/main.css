@@ -1,0 +1,44 @@
+body {
+  @apply antialiased font-sans
+  text-foreground bg-background;
+}
+
+/*
+foreground, background defined in tailwind.config.js
+
+body {
+  @apply antialiased font-sans
+  text-gray-700 dark:text-gray-200
+  bg-white dark:bg-gray-900;
+}
+*/
+
+
+/*
+.nuxt-ui-scrollbars {
+  & ::-webkit-scrollbar {
+    width: 0.6em;
+    height: 0.6em;
+    @apply bg-transparent;
+  }
+
+  & ::-webkit-scrollbar-track {
+    @apply bg-gray-100;
+  }
+
+  & ::-webkit-scrollbar-thumb {
+    border-radius: 0.6em;
+    @apply bg-gray-300 hover:bg-gray-400;
+  }
+
+  &.dark {
+    & ::-webkit-scrollbar-track {
+      @apply bg-gray-800;
+    }
+
+    & ::-webkit-scrollbar-thumb {
+      @apply bg-gray-700 hover:bg-gray-600;
+    }
+  }
+}
+*/

@@ -1,6 +1,8 @@
-# Impressum
+# Tangodata/Impressum
 
-npm package: tangodata/impressum
+Github repository: Tangodata/Impressum
+
+npm package: @kaceo/impressum
 npm author: @kaceo
 
 ## What this Nuxt Layer does
@@ -9,7 +11,7 @@ npm author: @kaceo
 - Layouts
 - UI Elements as Components
 - auto insert HTML head metadata
-- Basic app layout with top menus and slide-in side drawers 
+- Basic app layout with top menus and slide-in side drawers
 
 Basically this repo serves as a "theme" provider for another i
 Nuxt repo that
@@ -25,7 +27,7 @@ In the consumer repo, add this to the Nuxt.config.ts:
 
 ~~~
 
-extends: ['tangodata/impressum'],
+extends: ['@kaceo/impressum'],
 
 ~~~
 
@@ -34,7 +36,7 @@ and add this to the package.json:
 ~~~
 
 "dependencies": {
-  "tangodata/impressum": "latest"
+  "@kaceo/impressum": "latest"
 }
 ~~~
 
