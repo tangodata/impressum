@@ -1,5 +1,7 @@
 export default defineNuxtConfig({
-  // https://github.com/nuxt-themes/docus
+  future: {
+    compatibilityVersion: 4,
+  },
   devtools: { enabled: false },
   extends: [
     '../layer', // the parent theme
