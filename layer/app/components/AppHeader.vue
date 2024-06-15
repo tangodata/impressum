@@ -1,6 +1,31 @@
+<template lang="pug">
+UHeader(:ui="uiheader")
+  template(#logo)
+    | {{ header.title }}
+  template(#center) ???
+  //  | More Center
+  template(#right) !!!
+  //  | More Right
+  template(#bottom)
+    UContainer
+      ul(class="flex text-xs")
+        li(v-for="(item,index) in header.links"
+          :key="index"
+          class="flex px-2 border")
+          NuxtLink(:to="item.to") {{ item.label }}
+  template(#top)
+    p HEADER!
+</template>
+
 <script setup>
-const { header } = useAppConfig()
-const navigation = inject('navigation', [])
+const uiheader = {
+  wrapper: 'bg-teal-400',
+}
+
+const { impressum } = useAppConfig()
+const header = impressum.header
+
+//const navigation = inject('navigation', [])
 /*
 header(class="bg-black text-white")
   nav.flex
@@ -52,19 +77,3 @@ UHeader
 */
 </script>
 
-<template lang="pug">
-UHeader
-  template(#logo)
-    | {{ header.title }}
-  template(#center) ???
-  //  | More Center
-  template(#right) !!!
-  //  | More Right
-  template(#bottom)
-    UContainer(class="bg-lime-100")
-      ul(class="flex text-xs")
-        li(v-for="(item,index) in header.links"
-          :key="index"
-          class="flex px-2 border")
-          NuxtLink(:to="item.to") {{ item.label }}
-</template>

@@ -1,53 +1,66 @@
 ## Nuxt/UI
 (tailwind css, headless UI)
 
-UAccordion
-UAlert
-UAvatar
-UBadge
-UBreadcrumb
-UButton
-UCard
-UCarousel
-UCheckbox
-UChip
-UCommandPalette
-UContainer
-UContextMenu
-UDatePicker
-UDivider
-UDropdown
-UForm
-UFormGroup
-UHorizontalNavigation
-UVerticalNavigation
+(layout)
+  UCard - header, footer, slot
+  UContainer - slot
+  UDivider
+  USkeleton - use to create Placemakers
 
-UIcon
+(navigation)
+  UBreadcrumb
+  UCommandPalette
+  (UCommandPaletteGroup)
+  UHorizontalNavigation
+  UVerticalNavigation
+  UPagination
+  UTabs
 
-UInput
-UInputMenu
+(overlay dialogs)
+  UContextMenu
+  UModal
+  UNotification
+  UPopover
+  USlideover
+  UTooltop
 
-UKbd
-ULink
-UMeter
-UModal
-UNotification
-UPagination
-UPopover
-UProgress
-URadioGroup
-URange
+(form)
+  UCheckbox
+  UForm
+  UFormGroup
+  UInput
+  UInputMenu
+  (URadio)
+  URadioGroup
+  URange
+  USelect
+  USelectMenu
+  UTextarea
+  UToggle
 
-USelect
-USelectMenu
+(elements)
+  UAccordion
+  UAlert
+  UAvatar
+  (UAvatarGroup)
+  UBadge
+  UButton
+  (UButtonGroup)
+  UCarousel
+  UChip
+  UDropdown
+  UIcon
+  UKbd
+  ULink
+  UMeter
+  UProgress
 
-USkeleton
-USlideover
-UTable
-UTabs
-UTextarea
-UToggle
-UTooltop
+(data)
+  UTable
+
+(special??)
+  UDatePicker
+  == Needs v-calendar and date-fns
 
 ## Nuxt/UI-Pro
 
@@ -86,11 +99,11 @@ UDashboardSidebarLinks
 UDashboardSlideover
 UDashboardToolbar
 
-UFooter
+UFooter - top, (bottom)left, center, right
 UFooterColumns
 UFooterLinks
 
-UHeader
+UHeader - logo, left, center, right, bottom, top
 UHeaderLinks
 UHeaderPopoverLinks
 
@@ -103,13 +116,13 @@ ULandingLogos
 ULandingSection
 ULandingTestimonial
 
-UMain
+UMain - slot
 
 UNavigationAccordion
 UNavigationLinks
 UNavigationTree
 
-UPage
+UPage - left, right, slot
 UPageBody
 UPageCard
 UPageColumns

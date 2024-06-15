@@ -1,14 +1,19 @@
 <template lang="pug">
 div(:class="ui.wrapper" v-bind="attrs")
-  div(v-if="$slots.left" :class="ui.left")
+
+  div(:class="ui.left" v-if="$slots.left")
     slot(name="left")
+
   div(:class="centerClass")
     slot
-  div(v-if="$slots.right" :class="ui.right")
+
+  div(:class="ui.right" v-if="$slots.right")
     slot(name="right")
 </template>
 
 <script setup>
+// slots = default, left, right
+
 const props = defineProps({
   class: {
     type: [String, Object, Array],

@@ -1,6 +1,15 @@
 <template lang="pug">
 header(:class="ui.wrapper" v-bind="attrs")
   slot(name="top")
+    //-for notifications
+  slot(name="bottom")
+    //-for breadcrumb?. section?
+</template>
+
+<script setup>
+/*
+header(:class="ui.wrapper" v-bind="attrs")
+  slot(name="top")
     //-for notices?
 
   UContainer(:class="ui.container")
@@ -20,10 +29,8 @@ header(:class="ui.wrapper" v-bind="attrs")
 
   slot(name="bottom")
     //-for breadcrumb?. section?
-</template>
 
-<script setup>
-/*
+----
 header(:class="ui.wrapper" v-bind="attrs")
   slot(name="top")
 
@@ -163,7 +170,7 @@ const config = computed(() => ({
       open: appConfig.ui.icons.menu,
       close: appConfig.ui.icons.close
     }
-  }
+  },
 }))
 
 const route = useRoute()

@@ -1,12 +1,9 @@
 <script setup>
-const {toplinks} = useAppConfig()
+//simple Layout
+const myui="border border-red-300 my-1"
 </script>
 
 <template lang="pug">
-main(class="bg-white pa-2")
-
-UMain
-  UContainer(
-    ssclass="min-h-screen flex items-start")
-    slot
+article(:class="myui")
+  slot
 </template>

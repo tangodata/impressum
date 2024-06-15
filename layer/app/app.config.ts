@@ -4,8 +4,20 @@ export default defineAppConfig({
     socialCard: 'https://tangueros.org/social-card.png',
   },
 
+//////////////////////////////////////////////
+// used by @nuxt/ui components
+// and compo_ui components
+// define only CSS and Tailwind
+/////////////////////////////////////////////
+
   ui: {
+    primary: 'green',
+    gray: 'cool',
+
     variables: {
+      header: {
+        height: '4rem'
+      },
       light: {
         background: '255 255 255',
         foreground: 'var(--color-gray-700)'
@@ -14,10 +26,8 @@ export default defineAppConfig({
         background: 'var(--color-gray-900)',
         foreground: 'var(--color-gray-200)'
       },
-      header: {
-        height: '4rem'
-      }
     },
+
     icons: {
       dark: 'i-heroicons-moon-20-solid',
       light: 'i-heroicons-sun-20-solid',
@@ -30,6 +40,7 @@ export default defineAppConfig({
       close: 'i-heroicons-x-mark-20-solid',
       check: 'i-heroicons-check-circle-20-solid'
     },
+
     presets: {
       button: {
         primary: {
@@ -51,70 +62,87 @@ export default defineAppConfig({
               }
             }
           }
-        }
+        },
+
       }
     },
 
-    primary: 'green',
-    gray: 'cool',
-      header: {
-    },
+    //////////////////////////////////////////////
+    // used by ui-pro and compo_ui components
+    //////////////////////////////////////////////
+
+    aside: {},
+    auth: {},
+    blog: {},
+    landing: {},
+    navigation: {},
+    page: {},
+    main: {},
+    header: {},
     footer: {
-      links: [
-        {label: 'home', click: '/',},
-        //{label: 'about', click: '/about',},
-      ],
+      top: {
+        wrapper: "border-t border-gray-200 dark:border-gray-800",
+        container: "py-4 lg:py-6",
+      },
+
       bottom: {
-        left: 'text-sm text-gray-500 dark:text-gray-400',
-        wrapper: 'border-t border-gray-200 dark:border-gray-800',
+        wrapper: "text-sm border-0 border-gray-200 dark:border-gray-800",
+        container: "!py-3",
       },
     },
 
 
   },
 
+//////////////////////////////////////////////
+// used by impressum's theme engine
+// app.vue, layouts/default.vue
+// components/AppHeader AppFooter
+// and pages/*.vue
+//////////////////////////////////////////////
 
+  impressum: {
 
-
-  footer: {
-    credits: 'Copyright © 2024',
-    links: [{
-      icon: "i-simple-icons-github",
-      to: "https://github.com/tangueros/portal",
-      target: "_blank",
-      'aria-label': "On Github",
-    },{
-      icon: "i-simple-icons-facebook",
-      to: "https://facebook.com/tangoeast",
-      target: "_blank",
-      'aria-label': "On Facebook",
-    }],
-    colorMode: false,
-  },
-
-  header: {
-    title: 'Impressum Theme',
-    logo: {},
-
-    // UButton bindings, to, target, aria-label, icon, label
-    links: [
-/*      {
+    footer: {
+      credits: 'Copyright © 2024',
+      links: [{
         icon: "i-simple-icons-github",
-        to: "https://github.com/nuxt-ui-pro/docs",
+        to: "https://github.com/tangueros/portal",
         target: "_blank",
-        'aria-label': "Docs template on GitHub"
-      }, */
-      {label: 'Home', to: '/',},
-      {label: 'Play', to: '/play',},
-      //{name: 'About', to: '/about',},
-      //{name: 'Test', to: '/test',},
-    ],
-    colorMode: true,
-    search: true,
-  },
+        'aria-label': "On Github",
+      },{
+        icon: "i-simple-icons-facebook",
+        to: "https://facebook.com/tangoeast",
+        target: "_blank",
+        'aria-label': "On Facebook",
+      }],
+      colorMode: false,
+    },
 
-  toc: {
+    header: {
+      title: 'Impressum Theme',
+      logo: {},
+      colorMode: true,
+      search: true,
 
-  },
+      // UButton bindings, to, target, aria-label, icon, label
+      links: [
+        {label: 'Home', to: '/',},
+        {label: 'About', to: '/about',},
+        {label: 'Card', to: '/card',},
+        //{name: 'Test', to: '/test',},
+      ],
+    },
+  /*      {
+          icon: "i-simple-icons-github",
+          to: "https://github.com/nuxt-ui-pro/docs",
+          target: "_blank",
+          'aria-label': "Docs template on GitHub"
+        }, */
+
+    toc: {
+    },
+
+  }
 
 })

@@ -1,20 +1,5 @@
-<script setup>
-const { footer } = useAppConfig()
-
-const ui = {
-  bottom: {
-    wrapper: "border-t border-gray-200 dark:border-gray-800",
-    container: "!py-6",
-  },
-  top: {
-    wrapper: "border-t border-gray-200 dark:border-gray-800",
-    container: "py-8 lg:py-12",
-  },
-}
-</script>
-
 <template lang="pug">
-UFooter(:ui="ui")
+UFooter(:ui="uifooter")
   template(#top)
     b BASE THEME FOOTER
   template(#left)
@@ -27,3 +12,23 @@ UFooter(:ui="ui")
         v-bind="{ color: 'gray', variant: 'ghost', ...link }"
       )
 </template>
+
+<script setup>
+const uifooter = {
+  wrapper: 'bg-teal-400',
+  top: {
+    wrapper: "border-t border-gray-200 dark:border-gray-800",
+    container: "py-4 lg:py-6",
+  },
+  bottom: {
+    wrapper: "text-sm border-0 border-gray-200 dark:border-gray-800",
+    container: "!py-3",
+  },
+}
+
+const { impressum } = useAppConfig()
+const footer = impressum.footer
+/*
+*/
+</script>
+

@@ -21,7 +21,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./.starter/.output/public
+          path: ./demo/.output/public
 
   deploy:
     needs: build

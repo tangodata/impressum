@@ -2,10 +2,12 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
-  devtools: { enabled: false },
+  srcDir: './app',
+
+  devtools: { enabled: true }, //false },
   extends: [
-    //'../layer', // the parent theme
-    '@kaceo/impressum', // the parent theme
+    '../layer', // the parent theme
+    //'@kaceo/impressum', // the parent theme
   ],
   modules: [
     '@nuxt/content',
@@ -13,6 +15,10 @@ export default defineNuxtConfig({
   app: {
     //NUXT_APP_BASE_URL
     //baseURL: "/impressum/",
+  },
+
+  routeRules: {
+    '/': { prerender: true },
   },
 
 })

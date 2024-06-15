@@ -1,13 +1,26 @@
+<template lang="pug">
+div
+  NuxtLoadingIndicator
+
+  AppMain
+    NuxtLayout
+      NuxtPage
+
+  //-ClientOnly
+  //-  LazyUContentSearch(:files="files" :navigation="navigation")
+  //-UNotifications
+</template>
+
 <script setup>
 // Simple Head metadata
 useHead({
+  htmlAttrs: { lang: 'en' },
   meta: [
     { name: 'viewport', content: 'width=device-width, initial-scale=1' },
   ],
   link: [
     { rel: 'icon', href: '/favicon.ico' },
   ],
-  htmlAttrs: { lang: 'en' },
 })
 
 // SEO metadata
@@ -34,20 +47,4 @@ const { data: navigation } = await useAsyncData(
 provide('navigation', navigation)
 */
 </script>
-
-<template lang="pug">
-div
-  NuxtLoadingIndicator
-
-  AppHeader
-  UMain
-    NuxtLayout
-      NuxtPage
-  AppFooter
-
-  //-ClientOnly
-  //-  LazyUContentSearch(:files="files" :navigation="navigation")
-  //-UNotifications
-
-</template>
 

@@ -16,11 +16,14 @@ footer(:class="ui.wrapper" v-bind="attrs")
         slot(name="left")
 </template>
 
-<script setup>''
+<script setup>
+// slots = top, left, right, center
+
+
 const config = {
   wrapper: 'relative',
   top: {
-    wrapper: 'border',
+    wrapper: '', //border',
     container: 'py-0 lg:py-2'
   },
   bottom: {
