@@ -14,9 +14,7 @@ Preliminary Information
 is __so nice__ but I _love_ it.
 :::
 
-Read about [[/geo/SG | Singapore ]] here.
-
-Read about [Singapore](/guide/geo/SG) here.
+Read about [Singapore](#/guide/geo/SG) here.
 
 First Term
 : This is a definition
