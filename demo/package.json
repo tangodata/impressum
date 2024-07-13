@@ -7,10 +7,10 @@
     "build": "nuxi build",
     "generate": "nuxi generate",
     "prepare": "nuxi prepare",
-    "preview": "nuxi preview"
+    "preview": "8nuxi preview"
   },
   "dependencies": {
-    "@kaceo/impressum": "^0.0.8"
+    "@kaceo/impressum": "^0.0.9"
   },
   "devDependencies": {
     "@nuxt/content": "^2.12.1",

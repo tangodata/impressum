@@ -14,27 +14,25 @@
     "doc:generate": "nuxi generate demo",
     "doc:preview": "nuxi preview demo",
     "doc:prepare": "nuxi prepare demo",
-
     "dev": "nuxi dev layer --no-qr",
     "generate": "nuxi generate layer",
     "preview": "nuxi preview layer",
     "prepare": "nuxi prepare layer",
-
     "release": "bumpp layer/package.json --commit --push --tag",
     "publish": "echo 'cd layer && npm publish'"
   },
   "dependencies": {
-    "@iconify-json/heroicons": "^1.1.21",
+    "@iconify-json/heroicons": "^1.1.22",
     "@iconify-json/logos": "^1.1.43",
-    "@iconify-json/simple-icons": "^1.1.105",
-    "@nuxt/content": "^2.12.1",
-    "@nuxt/fonts": "^0.7.0",
+    "@iconify-json/simple-icons": "^1.1.109",
+    "@nuxt/content": "^2.13.1",
+    "@nuxt/fonts": "^0.7.1",
     "@nuxt/image": "1.7.0",
     "@nuxt/ui": "^2.17.0"
   },
   "devDependencies": {
     "bumpp": "^9.4.1",
-    "nuxt": "^3.12.1",
+    "nuxt": "^3.12.3",
     "pug": "^3.0.3"
   },
   "junk": {
