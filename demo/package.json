@@ -9,12 +9,12 @@
     "prepare": "nuxi prepare",
     "preview": "8nuxi preview"
   },
-  "dependencies": {
-    "@kaceo/impressum": "^0.0.9"
-  },
   "devDependencies": {
-    "@nuxt/content": "^2.12.1",
-    "nuxt": "^3.12.1",
+    "@nuxt/content": "^3.1.1",
+    "nuxt": "^3.15.4",
     "pug": "^3.0.3"
+  },
+  "dependencies": {
+    "@kaceo/impressum": "^0.0.13"
   }
 }

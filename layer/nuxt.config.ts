@@ -6,20 +6,23 @@ export default defineNuxtConfig({
   dir:{ app: 'app' },
   srcDir: 'app',
 
-///////////////////////
+  ///////////////////////
 
   alias: { '#base': resolve('./') },
+
   devtools: {enabled: false},
+
   devServer: {
     host: '0.0.0.0',
     port: 3000,
   },
+
   app: {
     //NUXT_APP_BASE_URL
     //baseURL: "/impressum/",
   },
 
-//////////////////////
+  //////////////////////
   modules: [
     '@nuxt/ui',
     '@nuxt/image',
@@ -51,4 +54,5 @@ export default defineNuxtConfig({
     },
   ],
 
+  compatibilityDate: '2024-11-19',
 })
