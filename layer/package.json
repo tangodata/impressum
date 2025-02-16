@@ -1,7 +1,7 @@
 {
   "name": "@kaceo/impressum",
   "author": "kaceo",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "Nuxt Layer with user interface components",
   "license": "MIT",
   "repository": {
@@ -25,22 +25,19 @@
     "preview": "nuxi preview",
     "prepare": "nuxi prepare"
   },
-  "dependencies": {
-    "@iconify-json/heroicons": "^1.2.1",
-    "@iconify-json/logos": "^1.2.3",
-    "@iconify-json/simple-icons": "^1.2.11",
-    "@nuxt/content": "^2.13.4",
-    "@nuxt/fonts": "^0.10.2",
-    "@nuxt/image": "1.8.1",
-    "@nuxt/ui": "^2.19.2",
-    "@rollup/plugin-yaml": "^4.1.2"
-  },
   "devDependencies": {
-    "nuxt": "^3.14.159",
+    "nuxt": "^3.15.4",
     "pug": "^3.0.3"
   },
-  "extra": {
-    "nuxt": "^3.12.1 or 3.11.2",
-    "@nuxt/kit": "^3.12.1"
+  "dependencies": {
+    "@iconify-json/heroicons": "^1.2.2",
+    "@iconify-json/logos": "^1.2.4",
+    "@iconify-json/simple-icons": "^1.2.24",
+    "@nuxt/content": "^3.1.1",
+    "@nuxt/fonts": "^0.10.3",
+    "@nuxt/image": "1.9.0",
+    "@nuxt/ui": "^2.21.0",
+    "@rollup/plugin-yaml": "^4.1.2"
   }
+
 }
